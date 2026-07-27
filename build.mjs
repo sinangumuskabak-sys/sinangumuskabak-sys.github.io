@@ -170,7 +170,7 @@ ${f.items.map((i) => `      <li>${fill(i)}</li>`).join('\n')}
         .map((s, i) => {
             const cap = h.screens[s] ?? '';
             return `  <figure class="screen">
-    <div class="phone"><img src="/assets/screens/${s}.jpg" alt="${esc(cap)}" loading="lazy" width="270" height="600"></div>
+    <div class="phone"><img src="/assets/screens/${s}.jpg" alt="${esc(cap)}" loading="lazy" width="270" height="538"></div>
     <figcaption>${esc(cap)}</figcaption>
   </figure>`;
         })

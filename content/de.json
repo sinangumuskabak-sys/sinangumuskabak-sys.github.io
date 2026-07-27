@@ -69,10 +69,10 @@
     ],
     "screensTitle": "Ein Blick in die App",
     "screens": {
-      "home": "Dein Tagesziel und dein Fortschritt",
+      "home": "Dein Niveau und deine Lernmodule",
       "reading": "Beim Lesen auf ein Wort tippen",
       "listening": "Synchrones Transkript",
-      "vocabulary": "Verteilte Wiederholung",
+      "vocabulary": "Karteikarten im Lernmodus",
       "grammar": "Grammatikübungen"
     },
     "languagesTitle": "Sprachen",

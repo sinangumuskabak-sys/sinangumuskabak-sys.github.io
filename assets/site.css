@@ -172,7 +172,7 @@ li { margin-bottom: 6px; }
     background: var(--bg-soft);
     border-radius: 22px;
     padding: 8px;
-    aspect-ratio: 9 / 19.5;
+    aspect-ratio: 9 / 20;   /* ekran goruntuleri 540x1200 -> kirpma olmasin */
     display: flex;
     overflow: hidden;
 }

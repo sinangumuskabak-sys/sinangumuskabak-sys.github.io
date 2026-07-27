@@ -69,10 +69,10 @@
     ],
     "screensTitle": "Aperçu de l'application",
     "screens": {
-      "home": "Ton objectif quotidien et ta progression",
+      "home": "Ton niveau et tes modules d'étude",
       "reading": "Touche un mot pendant la lecture",
       "listening": "Transcription synchronisée",
-      "vocabulary": "Répétition espacée",
+      "vocabulary": "Cartes mémoire en mode Apprendre",
       "grammar": "Exercices de grammaire"
     },
     "languagesTitle": "Langues",

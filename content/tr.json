@@ -69,10 +69,10 @@
     ],
     "screensTitle": "Uygulamadan görüntüler",
     "screens": {
-      "home": "Günlük hedefin ve ilerlemen",
+      "home": "Seviyen ve çalışma modüllerin",
       "reading": "Okurken kelimeye dokun",
       "listening": "Senkron transkript",
-      "vocabulary": "Aralıklı tekrar",
+      "vocabulary": "Ezber modunda kelime kartları",
       "grammar": "Gramer çalışması"
     },
     "languagesTitle": "Diller",

@@ -69,10 +69,10 @@
     ],
     "screensTitle": "A look inside",
     "screens": {
-      "home": "Your daily goal and progress",
+      "home": "Your level and study modules",
       "reading": "Tap a word while reading",
       "listening": "Synced transcript",
-      "vocabulary": "Spaced repetition",
+      "vocabulary": "Flashcards in Learn Mode",
       "grammar": "Grammar practice"
     },
     "languagesTitle": "Languages",

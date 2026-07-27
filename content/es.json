@@ -69,10 +69,10 @@
     ],
     "screensTitle": "Un vistazo por dentro",
     "screens": {
-      "home": "Tu meta diaria y tu progreso",
+      "home": "Tu nivel y tus módulos de estudio",
       "reading": "Toca una palabra mientras lees",
       "listening": "Transcripción sincronizada",
-      "vocabulary": "Repetición espaciada",
+      "vocabulary": "Tarjetas en el modo Aprender",
       "grammar": "Práctica de gramática"
     },
     "languagesTitle": "Idiomas",

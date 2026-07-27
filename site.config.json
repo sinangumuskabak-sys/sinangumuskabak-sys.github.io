@@ -1,0 +1,19 @@
+{
+  "appName": "LearnGuage",
+  "packageName": "com.sinandede.learnguage",
+  "baseUrl": "https://learnguage-app.github.io",
+  "contactEmail": "sinangumuskabak@gmail.com",
+  "playUrl": "https://play.google.com/store/apps/details?id=com.sinandede.learnguage",
+  "playSubscriptionsUrl": "https://play.google.com/store/account/subscriptions",
+  "defaultLocale": "en",
+  "locales": [
+    { "code": "en", "dir": "", "name": "English", "htmlLang": "en" },
+    { "code": "tr", "dir": "tr", "name": "Türkçe", "htmlLang": "tr" },
+    { "code": "es", "dir": "es", "name": "Español", "htmlLang": "es" },
+    { "code": "pt", "dir": "pt", "name": "Português", "htmlLang": "pt" },
+    { "code": "fr", "dir": "fr", "name": "Français", "htmlLang": "fr" },
+    { "code": "de", "dir": "de", "name": "Deutsch", "htmlLang": "de" }
+  ],
+  "pages": ["index", "privacy", "terms", "delete-account", "support"],
+  "screens": ["home", "reading", "listening", "vocabulary", "grammar"]
+}

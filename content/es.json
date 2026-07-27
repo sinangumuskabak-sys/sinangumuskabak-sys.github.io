@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "homeTitle": "LearnGuage — Aprende idiomas con contenido real",
+    "homeDescription": "Lee libros, mira vídeos, memoriza palabras. LearnGuage te enseña un idioma con contenido real, no con ejercicios de libro de texto.",
+    "privacyDescription": "Cómo LearnGuage recopila, usa y protege tus datos.",
+    "termsDescription": "Condiciones de uso de la aplicación LearnGuage, incluidas las condiciones de suscripción y cancelación.",
+    "deleteAccountDescription": "Cómo eliminar tu cuenta de LearnGuage y todos los datos asociados.",
+    "supportDescription": "Ayuda con LearnGuage: contacto, preguntas frecuentes y resolución de problemas."
+  },
+  "nav": {
+    "label": "Sitio",
+    "skip": "Ir al contenido",
+    "index": "Inicio",
+    "privacy": "Privacidad",
+    "terms": "Condiciones",
+    "delete-account": "Eliminar cuenta",
+    "support": "Soporte"
+  },
+  "footer": {
+    "contact": "Contacto: {{emailLink}}",
+    "copyright": "© 2026 LearnGuage · {{package}}"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "La página que buscas no existe. Elige un idioma para continuar:"
+  },
+  "home": {
+    "headline": "Aprende un idioma con contenido real",
+    "subhead": "Lee libros, mira vídeos, toca cualquier palabra que no conozcas, ve su traducción al instante y guárdala. Cada palabra guardada entra en un sistema inteligente de repetición espaciada: vuelve a aparecer justo antes de que la olvides.",
+    "cta": "Descárgala en Google Play",
+    "ctaNote": "Uso gratuito. Premium elimina los límites diarios.",
+    "featuresTitle": "Qué puedes hacer",
+    "features": [
+      {
+        "title": "📖 Aprende leyendo",
+        "items": [
+          "Libros adaptados a tu nivel (de A1 a C2)",
+          "Toca una palabra desconocida y ve su traducción al instante",
+          "Mantén pulsada una frase para ver su traducción y una explicación gramatical",
+          "Añade tus propios libros y estudia con ellos"
+        ]
+      },
+      {
+        "title": "🎧 Aprende escuchando",
+        "items": [
+          "Acostúmbrate al habla real con vídeos subtitulados",
+          "Transcripción sincronizada: la línea actual se resalta mientras se pronuncia",
+          "Toca cualquier palabra de la transcripción para traducirla y guardarla",
+          "Ajusta la velocidad de reproducción a tu ritmo"
+        ]
+      },
+      {
+        "title": "🧠 Memoriza vocabulario",
+        "items": [
+          "Repetición espaciada (SRS): las palabras vuelven justo cuando las necesitas",
+          "Modo Aprender: opción múltiple, escritura, completar huecos",
+          "Tarjetas de memoria, juegos de emparejar y de ordenar palabras",
+          "Añade imágenes a tus palabras para recordarlas mejor"
+        ]
+      },
+      {
+        "title": "✏️ Practica gramática",
+        "items": [
+          "Guarda frases de lo que lees y ves",
+          "Refuérzalas ordenando frases, con cuestionarios y emparejamientos",
+          "Lee las explicaciones gramaticales en tu idioma"
+        ]
+      }
+    ],
+    "screensTitle": "Un vistazo por dentro",
+    "screens": {
+      "home": "Tu meta diaria y tu progreso",
+      "reading": "Toca una palabra mientras lees",
+      "listening": "Transcripción sincronizada",
+      "vocabulary": "Repetición espaciada",
+      "grammar": "Práctica de gramática"
+    },
+    "languagesTitle": "Idiomas",
+    "learnLanguages": "<strong>Idiomas que puedes aprender:</strong> inglés, español, alemán, francés",
+    "uiLanguages": "<strong>Interfaz de la aplicación:</strong> español, inglés, turco, portugués, francés, alemán",
+    "premiumTitle": "Gratis y Premium",
+    "premiumBody": "LearnGuage es gratis. Las cuentas gratuitas reciben una cuota diaria que se consume al desbloquear secciones de libros y ver contenido de escucha.",
+    "premiumItems": [
+      "Premium elimina los límites diarios de lectura y escucha",
+      "Acceso completo a todos los libros y vídeos del catálogo",
+      "El plan anual incluye 7 días de prueba gratis",
+      "Cancela cuando quieras en Google Play → Suscripciones"
+    ],
+    "premiumPriceNote": "Los precios se muestran dentro de la aplicación en tu moneda local, y se aplica el precio mostrado en el momento de la compra.",
+    "faqTitle": "Preguntas frecuentes",
+    "faq": [
+      {
+        "q": "¿LearnGuage es gratis?",
+        "a": "Sí. Puedes leer, escuchar y estudiar vocabulario gratis dentro de una cuota diaria. Premium elimina esos límites diarios."
+      },
+      {
+        "q": "¿Qué idiomas puedo aprender?",
+        "a": "Inglés, español, alemán y francés. La interfaz está disponible en español, inglés, turco, portugués, francés y alemán."
+      },
+      {
+        "q": "¿Cómo cancelo mi suscripción?",
+        "a": "Abre <a href=\"{{playSubs}}\">Google Play → Suscripciones</a> y cancélala allí. Conservas Premium hasta el final del periodo que ya has pagado."
+      },
+      {
+        "q": "¿Cómo elimino mi cuenta?",
+        "a": "En la aplicación: Ajustes → Cuenta → Eliminar cuenta. Si no puedes acceder a la aplicación, consulta la <a href=\"{{url:delete-account}}\">página de eliminación de cuenta</a>."
+      },
+      {
+        "q": "¿La aplicación graba audio o rastrea mi ubicación?",
+        "a": "No. LearnGuage no accede a tu micrófono ni a tu ubicación, y no contiene publicidad de terceros. Consulta la <a href=\"{{url:privacy}}\">política de privacidad</a>."
+      },
+      {
+        "q": "¿Puedo estudiar con mis propios libros?",
+        "a": "Sí. Puedes añadir tus propios libros y usar con ellos las mismas herramientas de traducción al tocar y de guardado de palabras."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "meta": "Fecha de entrada en vigor: 27 de julio de 2026 · Aplicación: {{app}} ({{package}})",
+    "translationNotice": "Esta traducción se ofrece a título informativo. En caso de discrepancia, prevalece la <a href=\"/privacy.html\">versión en inglés</a>.",
+    "blocks": [
+      { "h2": "1. Quiénes somos" },
+      { "p": "{{app}} es una aplicación móvil de aprendizaje de idiomas. Esta política explica qué datos recopila la aplicación, por qué y cómo puedes controlarlos. Contacto: {{emailLink}}" },
+      { "h2": "2. Datos que recopilamos" },
+      { "h3": "Datos de la cuenta" },
+      { "ul": [
+        "Dirección de correo electrónico y contraseña (la contraseña se almacena únicamente cifrada mediante hash por nuestro proveedor de autenticación)",
+        "Nombre visible y avatar elegido"
+      ] },
+      { "h3": "Datos de aprendizaje" },
+      { "ul": [
+        "Idioma nativo e idioma de estudio seleccionados, nivel autoevaluado",
+        "Palabras y frases que guardas mientras estudias, incluidas las imágenes opcionales adjuntas a las palabras",
+        "Estadísticas de estudio (rachas, número de respuestas correctas, número de palabras memorizadas)",
+        "Progreso de lectura y escucha (en qué libro/vídeo estás y hasta dónde has llegado)",
+        "Preferencias de lectura (tamaño de letra, tema)"
+      ] },
+      { "h3": "Lo que NO recopilamos" },
+      { "ul": [
+        "Sin grabaciones de micrófono ni de audio",
+        "Sin datos de ubicación",
+        "Sin contactos, fotos ni archivos, salvo las imágenes que adjuntes explícitamente a las palabras guardadas",
+        "Sin identificadores publicitarios; la aplicación no contiene publicidad de terceros",
+        "Sin datos de tarjetas de pago: los pagos de suscripción los procesa íntegramente Google Play; nunca vemos ni almacenamos información de tarjetas"
+      ] },
+      { "h2": "3. Cómo usamos los datos" },
+      { "p": "Los datos se usan únicamente para ofrecer la funcionalidad de la aplicación: iniciar tu sesión, sincronizar tu progreso entre sesiones y dispositivos, y mostrarte tus propias estadísticas. No vendemos datos, no los usamos con fines publicitarios y no los compartimos con terceros salvo con los proveedores de servicios indicados a continuación." },
+      { "h2": "4. Dónde se almacenan los datos (encargados del tratamiento)" },
+      { "ul": [
+        "<strong>Supabase</strong>: autenticación, base de datos y almacenamiento de archivos para los datos indicados arriba.",
+        "<strong>Google Play</strong>: distribución de la aplicación y facturación de suscripciones.",
+        "<strong>RevenueCat</strong>: gestión del estado de la suscripción sobre la facturación de Google Play."
+      ] },
+      { "h2": "5. Conservación y eliminación de datos" },
+      { "p": "Tus datos se conservan mientras exista tu cuenta. Puedes eliminar tu cuenta y todos los datos asociados en cualquier momento desde la aplicación: <strong>Ajustes → Cuenta → Eliminar cuenta</strong>. La eliminación tiene efecto inmediato. Si ya no puedes acceder a la aplicación, escribe a {{emailLink}} desde la dirección registrada en tu cuenta; la eliminación se completará en un plazo de 30 días. Consulta la <a href=\"{{url:delete-account}}\">página de eliminación de cuenta</a> para más detalles." },
+      { "h2": "6. Seguridad" },
+      { "p": "Los datos se transmiten mediante conexiones cifradas (HTTPS/TLS). El acceso en el servidor está restringido con seguridad a nivel de fila, de modo que cada usuario solo puede acceder a sus propios datos." },
+      { "h2": "7. Menores" },
+      { "p": "{{app}} está dirigida al público general y no recopila conscientemente datos de menores de 13 años. Si crees que un menor nos ha facilitado datos, contáctanos y los eliminaremos." },
+      { "h2": "8. Este sitio web" },
+      { "p": "Este sitio web está formado por páginas estáticas. No utiliza cookies, ni analítica, ni ningún tipo de seguimiento." },
+      { "h2": "9. Cambios" },
+      { "p": "Podemos actualizar esta política; la fecha de entrada en vigor indicada arriba cambiará y los cambios importantes se comunicarán en la aplicación." }
+    ]
+  },
+  "terms": {
+    "title": "Condiciones de Uso",
+    "meta": "Fecha de entrada en vigor: 26 de julio de 2026 · Aplicación: {{app}} ({{package}})",
+    "translationNotice": "Esta traducción se ofrece a título informativo. En caso de discrepancia, prevalece la <a href=\"/terms.html\">versión en inglés</a>.",
+    "blocks": [
+      { "h2": "1. Aceptación" },
+      { "p": "Al descargar o utilizar {{app}} (\"la aplicación\"), aceptas estas Condiciones de Uso. Si no las aceptas, no utilices la aplicación. Contacto: {{emailLink}}" },
+      { "h2": "2. El servicio" },
+      { "p": "{{app}} es una aplicación de aprendizaje de idiomas que ofrece práctica de lectura, escucha, vocabulario y gramática. El uso gratuito está sujeto a límites diarios. Premium elimina esos límites." },
+      { "h2": "3. Cuentas" },
+      { "ul": [
+        "Debes facilitar una dirección de correo electrónico válida y mantener tus credenciales seguras.",
+        "Eres responsable de la actividad que se produzca en tu cuenta.",
+        "Puedes eliminar tu cuenta en cualquier momento desde la aplicación (Ajustes → Cuenta) o a través de <a href=\"{{url:delete-account}}\">esta página</a>."
+      ] },
+      { "h2": "4. Suscripciones y pago" },
+      { "ul": [
+        "Premium se ofrece como suscripción mensual o anual de <strong>renovación automática</strong>, vendida a través de Google Play.",
+        "Se aplica el precio mostrado en la aplicación en el momento de la compra. Los precios pueden cambiar; cualquier cambio se aplica únicamente a periodos de renovación futuros y se anuncia previamente.",
+        "<strong>Renovación automática:</strong> tu suscripción se renueva automáticamente al final de cada periodo salvo que la canceles al menos 24 horas antes de que finalice.",
+        "<strong>Cancelación:</strong> gestiona o cancela en cualquier momento en <a href=\"{{playSubs}}\">Google Play → Suscripciones</a>. La cancelación detiene las renovaciones futuras; conservas Premium hasta el final del periodo pagado.",
+        "<strong>Los reembolsos</strong> los gestiona Google Play conforme a su política de reembolsos.",
+        "Si se ofrece una prueba gratuita, cancelar antes de que termine evita cualquier cargo."
+      ] },
+      { "h2": "5. Límites de uso gratuito" },
+      { "p": "Las cuentas gratuitas reciben un número limitado de \"vidas\" diarias que se consumen al leer secciones de libros y ver contenido de escucha. Las vidas se restablecen a diario. Estos límites pueden ajustarse para mantener la sostenibilidad del servicio; los ajustes nunca afectan a una suscripción Premium activa." },
+      { "h2": "6. Contenido y propiedad intelectual" },
+      { "ul": [
+        "Los libros del catálogo son obras originales creadas para {{app}} u obras de dominio público cuyos derechos de autor han expirado.",
+        "El contenido de escucha consiste en vídeos de terceros reproducidos mediante el reproductor oficial de YouTube; esos vídeos pertenecen a sus respectivos propietarios.",
+        "No puedes copiar, redistribuir ni revender el contenido de la aplicación fuera de ella.",
+        "El contenido que añades tú (tus propios libros, palabras, notas) sigue siendo tuyo."
+      ] },
+      { "h2": "7. Uso aceptable" },
+      { "p": "Te comprometes a no: aplicar ingeniería inversa a la aplicación, eludir los límites de uso o los mecanismos de pago, subir contenido ilícito o que infrinja derechos, ni perturbar el servicio para otros usuarios." },
+      { "h2": "8. Exención de responsabilidad" },
+      { "p": "La aplicación se ofrece \"tal cual\". No garantizamos una disponibilidad ininterrumpida ni que el contenido de aprendizaje esté libre de errores. En la medida permitida por la ley, no somos responsables de daños indirectos derivados del uso de la aplicación." },
+      { "h2": "9. Cambios" },
+      { "p": "Estas condiciones pueden actualizarse. Los cambios importantes se anunciarán en la aplicación o en esta página con una nueva fecha de entrada en vigor. El uso continuado tras un cambio implica que aceptas las condiciones actualizadas." },
+      { "h2": "10. Legislación aplicable" },
+      { "p": "Estas condiciones se rigen por las leyes de la República de Türkiye. Tus derechos legales como consumidor no se ven afectados." }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Eliminación de Cuenta y Datos",
+    "meta": "Aplicación: {{app}} ({{package}}) · <a href=\"{{url:privacy}}\">Política de Privacidad</a>",
+    "translationNotice": "Esta traducción se ofrece a título informativo. En caso de discrepancia, prevalece la <a href=\"/delete-account.html\">versión en inglés</a>.",
+    "blocks": [
+      { "h2": "1. Elimina tu cuenta desde la aplicación (recomendado)" },
+      { "p": "Puedes eliminar tú mismo tu cuenta y todos los datos asociados, al instante, desde la propia aplicación:" },
+      { "ol": [
+        "Abre {{app}} e inicia sesión",
+        "Ve a <strong>Ajustes</strong>",
+        "En la sección <strong>Cuenta</strong>, toca <strong>Eliminar cuenta</strong>",
+        "Escribe la palabra de confirmación que aparece en pantalla y confirma"
+      ] },
+      { "p": "La eliminación tiene efecto inmediato y no se puede deshacer." },
+      { "h2": "2. Solicitar la eliminación por correo electrónico" },
+      { "p": "Si ya no puedes acceder a la aplicación (pérdida del dispositivo, olvido de la contraseña, desinstalación), envía una solicitud de eliminación a {{emailLink}} <strong>desde la dirección de correo registrada en tu cuenta de {{app}}</strong>, con el asunto \"Solicitud de eliminación de cuenta\". Tu cuenta y tus datos se eliminarán en un plazo máximo de 30 días y recibirás una respuesta de confirmación." },
+      { "h2": "3. Qué se elimina" },
+      { "ul": [
+        "Información del perfil (nombre visible, vinculación de correo, avatar)",
+        "Todos los datos de aprendizaje (palabras y frases guardadas, progreso, datos por par de idiomas, registros diarios de estudio, estadísticas)",
+        "Las imágenes que adjuntaste a las palabras guardadas (se eliminan del almacenamiento de archivos)",
+        "El registro de suscripción que mantiene la aplicación (nota: para detener la facturación, cancela además la suscripción en <a href=\"{{playSubs}}\">Google Play → Suscripciones</a>; eliminar la cuenta no cancela una suscripción de Google Play)",
+        "La propia cuenta de autenticación"
+      ] },
+      { "p": "La eliminación es permanente e irreversible. Tras la eliminación no se conservan copias adicionales de tus datos personales. Los libros/PDF que hayas añadido tú se guardan únicamente en tu dispositivo y desaparecen al borrar los datos de la aplicación." }
+    ]
+  },
+  "support": {
+    "title": "Soporte",
+    "meta": "Aplicación: {{app}} ({{package}})",
+    "blocks": [
+      { "h2": "Contacto" },
+      { "p": "Preguntas, informes de errores y sugerencias: {{emailLink}}" },
+      { "p": "Escríbenos en inglés o turco e incluye el modelo de tu dispositivo, la versión de Android y la versión de la aplicación (Ajustes → Acerca de) si informas de un problema. Solemos responder en 1–3 días laborables." },
+      { "h2": "He comprado Premium pero la aplicación sigue mostrando límites" },
+      { "p": "Abre la aplicación y desliza hacia abajo para actualizar, o cierra sesión y vuelve a entrar: la suscripción se verifica con Google Play al iniciar. Si tras unos minutos sigue sin desbloquearse, escríbenos con el número de pedido de Google Play y lo revisaremos." },
+      { "h2": "¿Cómo restauro una compra en un dispositivo nuevo?" },
+      { "p": "Inicia sesión con la misma cuenta que usaste al comprar y luego usa <strong>Restaurar compras</strong> en la pantalla de suscripción. La suscripción está vinculada a tu cuenta de Google, así que asegúrate de haber iniciado sesión en Google Play con la cuenta que realizó la compra." },
+      { "h2": "¿Cómo cancelo o pido un reembolso?" },
+      { "p": "Cancela cuando quieras en <a href=\"{{playSubs}}\">Google Play → Suscripciones</a>. La cancelación detiene las renovaciones futuras; Premium continúa hasta el final del periodo ya pagado. Los reembolsos los gestiona Google Play conforme a su política." },
+      { "h2": "He olvidado mi contraseña" },
+      { "p": "En la pantalla de inicio de sesión, toca <strong>He olvidado mi contraseña</strong> e introduce tu dirección de correo. Recibirás un enlace de restablecimiento. Si no llega en unos minutos, revisa la carpeta de spam." },
+      { "h2": "¿Cómo elimino mi cuenta?" },
+      { "p": "En la aplicación: <strong>Ajustes → Cuenta → Eliminar cuenta</strong>. Todos los detalles, incluida la forma de solicitar la eliminación por correo si no puedes acceder a la aplicación, están en la <a href=\"{{url:delete-account}}\">página de eliminación de cuenta</a>." },
+      { "h2": "Informar de problemas con el contenido" },
+      { "p": "Si un libro, vídeo o traducción es incorrecto o inapropiado, escríbenos indicando el título y, si es posible, una captura de pantalla. El contenido notificado de este modo se revisa y se corrige o se retira." }
+    ]
+  }
+}

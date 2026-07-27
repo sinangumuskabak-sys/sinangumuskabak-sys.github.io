@@ -1,0 +1,255 @@
+{
+  "meta": {
+    "homeTitle": "LearnGuage — Gerçek içerikle dil öğren",
+    "homeDescription": "Kitap oku, video izle, kelime ezberle. LearnGuage dili ders kitabından değil, gerçek içerikten öğretir.",
+    "privacyDescription": "LearnGuage verilerinizi nasıl topluyor, kullanıyor ve koruyor.",
+    "termsDescription": "LearnGuage uygulamasının kullanım koşulları; abonelik ve iptal şartları dahil.",
+    "deleteAccountDescription": "LearnGuage hesabınızı ve tüm verilerinizi nasıl silersiniz.",
+    "supportDescription": "LearnGuage yardım: iletişim, sık sorulan sorular ve sorun giderme."
+  },
+  "nav": {
+    "label": "Site",
+    "skip": "İçeriğe geç",
+    "index": "Ana sayfa",
+    "privacy": "Gizlilik",
+    "terms": "Koşullar",
+    "delete-account": "Hesap silme",
+    "support": "Destek"
+  },
+  "footer": {
+    "contact": "İletişim: {{emailLink}}",
+    "copyright": "© 2026 LearnGuage · {{package}}"
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "body": "Aradığınız sayfa mevcut değil. Devam etmek için bir dil seçin:"
+  },
+  "home": {
+    "headline": "Gerçek içerikle dil öğren",
+    "subhead": "Kitap oku, video izle, anlamadığın kelimeye dokun, anında çevirisini gör ve kaydet. Eklediğin her kelime akıllı tekrar sistemine girer — tam unutmak üzereyken karşına çıkar.",
+    "cta": "Google Play'den indir",
+    "ctaNote": "Ücretsiz kullanılır. Premium günlük sınırları kaldırır.",
+    "featuresTitle": "Neler yapabilirsin",
+    "features": [
+      {
+        "title": "📖 Okuyarak öğren",
+        "items": [
+          "Seviyene uygun kitaplar (A1'den C2'ye)",
+          "Bilmediğin kelimeye dokun, anında çeviri",
+          "Cümleye uzun bas, cümle çevirisi ve gramer açıklaması al",
+          "Kendi kitabını ekleyip onunla çalış"
+        ]
+      },
+      {
+        "title": "🎧 Dinleyerek öğren",
+        "items": [
+          "Altyazılı videolarla gerçek konuşma hızına alış",
+          "Senkron transkript: söylenen satır ekranda vurgulanır",
+          "Transkriptteki kelimeye dokun, çevir ve kaydet",
+          "Oynatma hızını kendine göre ayarla"
+        ]
+      },
+      {
+        "title": "🧠 Kelime ezberle",
+        "items": [
+          "Aralıklı tekrar (SRS): kelimeler tam zamanında karşına çıkar",
+          "Öğren Modu: çoktan seçmeli, yazma, boşluk doldurma",
+          "Kelime kartları, eşleştirme ve kelime dizme oyunları",
+          "Kelimelerine resim ekleyerek kalıcılığı artır"
+        ]
+      },
+      {
+        "title": "✏️ Gramer çalış",
+        "items": [
+          "Okuduğun ve izlediğin içerikten cümle kaydet",
+          "Cümle dizme, quiz ve eşleştirme ile pekiştir",
+          "Gramer açıklamalarını ana dilinde oku"
+        ]
+      }
+    ],
+    "screensTitle": "Uygulamadan görüntüler",
+    "screens": {
+      "home": "Günlük hedefin ve ilerlemen",
+      "reading": "Okurken kelimeye dokun",
+      "listening": "Senkron transkript",
+      "vocabulary": "Aralıklı tekrar",
+      "grammar": "Gramer çalışması"
+    },
+    "languagesTitle": "Diller",
+    "learnLanguages": "<strong>Öğrenebileceğin diller:</strong> İngilizce, İspanyolca, Almanca, Fransızca",
+    "uiLanguages": "<strong>Uygulama arayüzü:</strong> Türkçe, İngilizce, İspanyolca, Portekizce, Fransızca, Almanca",
+    "premiumTitle": "Ücretsiz ve Premium",
+    "premiumBody": "LearnGuage ücretsiz kullanılır. Ücretsiz hesaplar, kitap bölümlerini açarken ve dinleme içeriği izlerken harcanan günlük bir hak alır.",
+    "premiumItems": [
+      "Premium, okuma ve dinlemedeki günlük sınırları kaldırır",
+      "Katalogdaki tüm kitap ve videolara tam erişim",
+      "Yıllık planda 7 gün ücretsiz deneme",
+      "Google Play → Abonelikler'den istediğin zaman iptal"
+    ],
+    "premiumPriceNote": "Fiyatlar uygulama içinde kendi para biriminizde gösterilir ve satın alma anında görünen fiyat geçerlidir.",
+    "faqTitle": "Sık sorulan sorular",
+    "faq": [
+      {
+        "q": "LearnGuage ücretsiz mi?",
+        "a": "Evet. Günlük bir hak dahilinde ücretsiz okuyabilir, dinleyebilir ve kelime çalışabilirsin. Premium bu günlük sınırları kaldırır."
+      },
+      {
+        "q": "Hangi dilleri öğrenebilirim?",
+        "a": "İngilizce, İspanyolca, Almanca ve Fransızca. Uygulama arayüzü Türkçe, İngilizce, İspanyolca, Portekizce, Fransızca ve Almanca olarak mevcut."
+      },
+      {
+        "q": "Aboneliğimi nasıl iptal ederim?",
+        "a": "<a href=\"{{playSubs}}\">Google Play → Abonelikler</a> bölümünden iptal edebilirsin. Ödediğin dönemin sonuna kadar Premium devam eder."
+      },
+      {
+        "q": "Hesabımı nasıl silerim?",
+        "a": "Uygulamada: Ayarlar → Hesap → Hesabı Sil. Uygulamaya erişemiyorsan <a href=\"{{url:delete-account}}\">hesap silme sayfasına</a> bak."
+      },
+      {
+        "q": "Uygulama ses kaydı alıyor mu, konumumu izliyor mu?",
+        "a": "Hayır. LearnGuage mikrofona ve konuma erişmez, üçüncü taraf reklam içermez. <a href=\"{{url:privacy}}\">Gizlilik politikasına</a> bakabilirsin."
+      },
+      {
+        "q": "Kendi kitaplarımla çalışabilir miyim?",
+        "a": "Evet. Kendi kitaplarını ekleyip aynı dokun-çevir ve kelime kaydetme araçlarını onlarla da kullanabilirsin."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "meta": "Yürürlük tarihi: 27 Temmuz 2026 · Uygulama: {{app}} ({{package}})",
+    "blocks": [
+      { "h2": "1. Biz kimiz" },
+      { "p": "{{app}} bir dil öğrenme mobil uygulamasıdır. Bu politika, uygulamanın hangi verileri neden topladığını ve bu veriler üzerindeki haklarınızı açıklar. İletişim: {{emailLink}}" },
+      { "h2": "2. Toplanan veriler" },
+      { "h3": "Hesap verileri" },
+      { "ul": [
+        "E-posta adresi ve şifre (şifre, kimlik doğrulama sağlayıcımızda yalnızca karma/hash olarak saklanır)",
+        "Görünen ad ve seçilen avatar"
+      ] },
+      { "h3": "Öğrenme verileri" },
+      { "ul": [
+        "Seçilen ana dil ve öğrenilen dil, kendi beyan ettiğiniz seviye",
+        "Çalışırken kaydettiğiniz kelime ve cümleler, kelimelere isteğe bağlı eklediğiniz görseller",
+        "Çalışma istatistikleri (seri/streak, doğru cevap sayısı, ezberlenen kelime sayısı)",
+        "Okuma ve dinleme ilerlemesi (hangi kitap/videoda ne kadar ilerlediğiniz)",
+        "Okuma tercihleri (yazı boyutu, tema)"
+      ] },
+      { "h3": "TOPLANMAYAN veriler" },
+      { "ul": [
+        "Mikrofon/ses kaydı YOK",
+        "Konum verisi YOK",
+        "Kelimelere bilerek eklediğiniz görseller dışında rehber, fotoğraf veya dosya erişimi YOK",
+        "Reklam kimliği YOK; uygulamada üçüncü taraf reklam bulunmaz",
+        "Kart bilgisi YOK — abonelik ödemeleri tamamen Google Play tarafından işlenir; kart bilgilerinizi hiçbir zaman görmeyiz ve saklamayız"
+      ] },
+      { "h2": "3. Verilerin kullanımı" },
+      { "p": "Veriler yalnızca uygulamanın işlevi için kullanılır: oturum açmanız, öğrenme ilerlemenizin oturumlar ve cihazlar arasında eşitlenmesi ve istatistiklerinizin size gösterilmesi. Verileriniz satılmaz, reklam için kullanılmaz ve aşağıdaki hizmet sağlayıcılar dışında üçüncü taraflarla paylaşılmaz." },
+      { "h2": "4. Verilerin saklandığı yer (işleyiciler)" },
+      { "ul": [
+        "<strong>Supabase</strong> — kimlik doğrulama, veritabanı ve dosya depolama.",
+        "<strong>Google Play</strong> — uygulama dağıtımı ve abonelik faturalandırması.",
+        "<strong>RevenueCat</strong> — Google Play faturalandırması üzerinde abonelik durumu yönetimi."
+      ] },
+      { "h2": "5. Saklama süresi ve silme" },
+      { "p": "Verileriniz hesabınız var olduğu sürece saklanır. Hesabınızı ve tüm verilerinizi dilediğiniz zaman uygulama içinden kendiniz silebilirsiniz: <strong>Ayarlar → Hesap → Hesabı Sil</strong>. Silme anında gerçekleşir. Uygulamaya artık erişemiyorsanız, hesabınıza kayıtlı adresten {{emailLink}} adresine yazın; silme işlemi 30 gün içinde tamamlanır. Ayrıntılar için <a href=\"{{url:delete-account}}\">hesap silme sayfasına</a> bakın." },
+      { "h2": "6. Güvenlik" },
+      { "p": "Veriler şifreli bağlantılarla (HTTPS/TLS) iletilir. Sunucu tarafında satır seviyesi güvenlik (RLS) ile her kullanıcı yalnızca kendi verisine erişebilir." },
+      { "h2": "7. Çocuklar" },
+      { "p": "{{app}} genel kitleye yöneliktir ve 13 yaş altı çocuklardan bilerek veri toplamaz. Bir çocuğun veri sağladığını düşünüyorsanız bize ulaşın, veriyi silelim." },
+      { "h2": "8. Bu web sitesi" },
+      { "p": "Bu web sitesi statik sayfalardan oluşur. Çerez kullanmaz, analitik çalıştırmaz ve hiçbir şekilde takip yapmaz." },
+      { "h2": "9. Değişiklikler" },
+      { "p": "Bu politika güncellenebilir; yukarıdaki yürürlük tarihi değişir ve önemli değişiklikler uygulama içinde duyurulur." }
+    ]
+  },
+  "terms": {
+    "title": "Kullanım Koşulları",
+    "meta": "Yürürlük tarihi: 26 Temmuz 2026 · Uygulama: {{app}} ({{package}})",
+    "blocks": [
+      { "h2": "1. Sözleşme" },
+      { "p": "{{app}}'i (\"uygulama\") indirerek veya kullanarak bu Kullanım Koşulları'nı kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın. İletişim: {{emailLink}}" },
+      { "h2": "2. Hizmet" },
+      { "p": "{{app}}; okuma, dinleme, kelime ve gramer çalışması sunan bir dil öğrenme uygulamasıdır. Ücretsiz kullanım günlük sınırlara tabidir. Premium bu sınırları kaldırır." },
+      { "h2": "3. Hesaplar" },
+      { "ul": [
+        "Geçerli bir e-posta adresi vermeli ve giriş bilgilerinizi güvende tutmalısınız.",
+        "Hesabınız üzerinden gerçekleşen işlemlerden siz sorumlusunuz.",
+        "Hesabınızı dilediğiniz zaman uygulama içinden (Ayarlar → Hesap) veya <a href=\"{{url:delete-account}}\">bu sayfadan</a> silebilirsiniz."
+      ] },
+      { "h2": "4. Abonelik ve ödeme" },
+      { "ul": [
+        "Premium, Google Play üzerinden satılan aylık veya yıllık <strong>otomatik yenilenen</strong> abonelik olarak sunulur.",
+        "Satın alma anında uygulamada gösterilen fiyat geçerlidir. Fiyatlar değişebilir; değişiklik yalnızca sonraki yenileme dönemleri için geçerlidir ve önceden duyurulur.",
+        "<strong>Otomatik yenileme:</strong> dönem bitiminden en az 24 saat önce iptal edilmezse abonelik kendiliğinden yenilenir.",
+        "<strong>İptal:</strong> <a href=\"{{playSubs}}\">Google Play → Abonelikler</a> bölümünden dilediğiniz zaman iptal edebilirsiniz. İptal sonraki yenilemeleri durdurur; ödediğiniz dönemin sonuna kadar Premium devam eder.",
+        "<strong>İade</strong> işlemleri Google Play'in iade politikasına göre Google tarafından yürütülür.",
+        "Ücretsiz deneme sunulduysa, deneme bitmeden iptal ederseniz ücret alınmaz."
+      ] },
+      { "h2": "5. Ücretsiz kullanım sınırları" },
+      { "p": "Ücretsiz hesaplar, kitap bölümleri okurken ve dinleme içeriği izlerken harcanan sınırlı sayıda günlük \"can\" alır. Canlar her gün yenilenir. Hizmetin sürdürülebilirliği için bu sınırlar değiştirilebilir; değişiklikler aktif bir Premium aboneliği etkilemez." },
+      { "h2": "6. İçerik ve fikri mülkiyet" },
+      { "ul": [
+        "Katalogdaki kitaplar ya {{app}} için üretilmiş özgün eserlerdir ya da telif süresi dolmuş kamuya açık eserlerdir.",
+        "Dinleme içeriği, resmî YouTube oynatıcısı üzerinden oynatılan üçüncü taraf videolarından oluşur; bu videolar sahiplerine aittir.",
+        "Uygulama içeriğini uygulama dışında kopyalayamaz, dağıtamaz veya satamazsınız.",
+        "Kendi eklediğiniz içerik (kendi kitaplarınız, kelimeleriniz, notlarınız) size aittir."
+      ] },
+      { "h2": "7. Kabul edilebilir kullanım" },
+      { "p": "Uygulamayı tersine mühendislikle çözmemeyi, kullanım sınırlarını veya ödeme mekanizmalarını aşmamayı, hukuka aykırı ya da hak ihlali içeren içerik yüklememeyi ve hizmeti diğer kullanıcılar için aksatmamayı kabul edersiniz." },
+      { "h2": "8. Sorumluluğun sınırlandırılması" },
+      { "p": "Uygulama \"olduğu gibi\" sunulur. Kesintisiz erişim veya içeriğin hatasız olduğu garanti edilmez. Yasanın izin verdiği ölçüde, uygulamanın kullanımından doğan dolaylı zararlardan sorumlu değiliz." },
+      { "h2": "9. Değişiklikler" },
+      { "p": "Bu koşullar güncellenebilir. Önemli değişiklikler uygulama içinde veya bu sayfada yeni yürürlük tarihiyle duyurulur. Değişiklikten sonra kullanmaya devam etmeniz güncel koşulları kabul ettiğiniz anlamına gelir." },
+      { "h2": "10. Uygulanacak hukuk" },
+      { "p": "Bu koşullar Türkiye Cumhuriyeti hukukuna tabidir. Tüketici olarak sahip olduğunuz yasal haklar saklıdır." }
+    ]
+  },
+  "deleteAccount": {
+    "title": "Hesap ve Veri Silme",
+    "meta": "Uygulama: {{app}} ({{package}}) · <a href=\"{{url:privacy}}\">Gizlilik Politikası</a>",
+    "blocks": [
+      { "h2": "1. Hesabını uygulama içinden sil (önerilen)" },
+      { "p": "Hesabını ve tüm verilerini uygulama içinden, anında ve kendin silebilirsin:" },
+      { "ol": [
+        "{{app}}'i aç ve giriş yap",
+        "<strong>Ayarlar</strong>'a git",
+        "<strong>Hesap</strong> bölümünde <strong>Hesabı Sil</strong>'e dokun",
+        "Ekranda gösterilen onay kelimesini yazıp onayla"
+      ] },
+      { "p": "Silme anında gerçekleşir ve geri alınamaz." },
+      { "h2": "2. E-posta ile silme talebi" },
+      { "p": "Uygulamaya artık erişemiyorsan (cihaz kaybı, şifre unutma, uygulamanın silinmesi), <strong>{{app}} hesabına kayıtlı e-posta adresinden</strong> {{emailLink}} adresine \"Hesap silme talebi\" konulu bir e-posta gönder. Hesabın ve verilerin en geç 30 gün içinde silinir ve sana onay yanıtı gönderilir." },
+      { "h2": "3. Neler silinir" },
+      { "ul": [
+        "Profil bilgileri (görünen ad, e-posta bağlantısı, avatar)",
+        "Tüm öğrenme verileri (kaydedilen kelime ve cümleler, ilerleme, dil çifti verileri, günlük çalışma kayıtları, istatistikler)",
+        "Kelimelere eklediğin resimler (dosya deposundan kaldırılır)",
+        "Uygulamanın tuttuğu abonelik kaydı (not: faturalandırmayı durdurmak için aboneliği <a href=\"{{playSubs}}\">Google Play → Abonelikler</a>'den ayrıca iptal et — hesabı silmek Google Play aboneliğini iptal etmez)",
+        "Kimlik doğrulama hesabının kendisi"
+      ] },
+      { "p": "Silme kalıcıdır ve geri alınamaz. Silme sonrasında kişisel verilerinin ek bir kopyası tutulmaz. Kendi eklediğin kitap/PDF'ler yalnızca cihazında saklanır; uygulama verileri temizlendiğinde onlar da kalkar." }
+    ]
+  },
+  "support": {
+    "title": "Destek",
+    "meta": "Uygulama: {{app}} ({{package}})",
+    "blocks": [
+      { "h2": "İletişim" },
+      { "p": "Soru, hata bildirimi ve öneriler: {{emailLink}}" },
+      { "p": "Bir sorun bildiriyorsan cihaz modelini, Android sürümünü ve uygulama sürümünü (Ayarlar → Hakkında) eklersen daha hızlı çözeriz. Yanıtlar genellikle 1–3 iş günü içinde gelir." },
+      { "h2": "Premium aldım ama uygulama hâlâ sınır gösteriyor" },
+      { "p": "Uygulamayı aşağı çekerek yenile ya da çıkış yapıp tekrar gir — abonelik açılışta Google Play üzerinden doğrulanır. Birkaç dakika sonra hâlâ açılmadıysa Google Play sipariş numaranla bize yaz, inceleyelim." },
+      { "h2": "Yeni cihazda satın almamı nasıl geri yüklerim?" },
+      { "p": "Satın alırken kullandığın hesapla giriş yap, sonra abonelik ekranındaki <strong>Satın alımları geri yükle</strong> seçeneğini kullan. Abonelik Google hesabına bağlıdır; Google Play'de satın almayı yapan hesapla oturum açtığından emin ol." },
+      { "h2": "Nasıl iptal ederim veya iade alırım?" },
+      { "p": "<a href=\"{{playSubs}}\">Google Play → Abonelikler</a> bölümünden istediğin zaman iptal edebilirsin. İptal sonraki yenilemeleri durdurur; ödediğin dönemin sonuna kadar Premium devam eder. İade işlemleri Google Play'in iade politikasına göre Google tarafından yürütülür." },
+      { "h2": "Şifremi unuttum" },
+      { "p": "Giriş ekranında <strong>Şifremi unuttum</strong>'a dokun ve e-posta adresini gir. Sana bir sıfırlama bağlantısı gönderilir. Birkaç dakika içinde gelmezse spam klasörünü kontrol et." },
+      { "h2": "Hesabımı nasıl silerim?" },
+      { "p": "Uygulamada: <strong>Ayarlar → Hesap → Hesabı Sil</strong>. Uygulamaya erişemiyorsan e-posta ile nasıl talep edeceğin dahil tüm ayrıntılar <a href=\"{{url:delete-account}}\">hesap silme sayfasında</a>." },
+      { "h2": "İçerik sorunlarını bildirme" },
+      { "p": "Bir kitap, video veya çeviri hatalıysa ya da uygunsuzsa, başlığıyla ve mümkünse ekran görüntüsüyle bize yaz. Bu şekilde bildirilen içerik incelenir, düzeltilir veya kaldırılır." }
+    ]
+  }
+}

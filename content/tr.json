@@ -18,7 +18,7 @@
   },
   "footer": {
     "contact": "İletişim: {{emailLink}}",
-    "copyright": "© 2026 LearnGuage · {{package}}"
+    "copyright": "© 2026 LearnGuage"
   },
   "notFound": {
     "title": "Sayfa bulunamadı",
@@ -117,7 +117,7 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "meta": "Yürürlük tarihi: 27 Temmuz 2026 · Uygulama: {{app}} ({{package}})",
+    "meta": "Yürürlük tarihi: 27 Temmuz 2026 · Uygulama: {{app}}",
     "blocks": [
       { "h2": "1. Biz kimiz" },
       { "p": "{{app}} bir dil öğrenme mobil uygulamasıdır. Bu politika, uygulamanın hangi verileri neden topladığını ve bu veriler üzerindeki haklarınızı açıklar. İletişim: {{emailLink}}" },
@@ -165,7 +165,7 @@
   },
   "terms": {
     "title": "Kullanım Koşulları",
-    "meta": "Yürürlük tarihi: 26 Temmuz 2026 · Uygulama: {{app}} ({{package}})",
+    "meta": "Yürürlük tarihi: 26 Temmuz 2026 · Uygulama: {{app}}",
     "blocks": [
       { "h2": "1. Sözleşme" },
       { "p": "{{app}}'i (\"uygulama\") indirerek veya kullanarak bu Kullanım Koşulları'nı kabul etmiş olursunuz. Kabul etmiyorsanız lütfen uygulamayı kullanmayın. İletişim: {{emailLink}}" },
@@ -207,7 +207,7 @@
   },
   "deleteAccount": {
     "title": "Hesap ve Veri Silme",
-    "meta": "Uygulama: {{app}} ({{package}}) · <a href=\"{{url:privacy}}\">Gizlilik Politikası</a>",
+    "meta": "Uygulama: {{app}} · <a href=\"{{url:privacy}}\">Gizlilik Politikası</a>",
     "blocks": [
       { "h2": "1. Hesabını uygulama içinden sil (önerilen)" },
       { "p": "Hesabını ve tüm verilerini uygulama içinden, anında ve kendin silebilirsin:" },
@@ -233,7 +233,7 @@
   },
   "support": {
     "title": "Destek",
-    "meta": "Uygulama: {{app}} ({{package}})",
+    "meta": "Uygulama: {{app}}",
     "blocks": [
       { "h2": "İletişim" },
       { "p": "Soru, hata bildirimi ve öneriler: {{emailLink}}" },

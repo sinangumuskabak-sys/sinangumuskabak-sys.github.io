@@ -1,8 +1,8 @@
 {
   "appName": "LearnGuage",
   "packageName": "com.sinandede.learnguage",
-  "baseUrl": "https://learnguage-app.github.io",
-  "contactEmail": "sinangumuskabak@gmail.com",
+  "baseUrl": "https://learnguage.app",
+  "contactEmail": "learngua@learnguage.app",
   "playUrl": "https://play.google.com/store/apps/details?id=com.sinandede.learnguage",
   "playSubscriptionsUrl": "https://play.google.com/store/account/subscriptions",
   "defaultLocale": "en",

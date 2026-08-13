@@ -18,7 +18,7 @@
   },
   "footer": {
     "contact": "Contact : {{emailLink}}",
-    "copyright": "© 2026 LearnGuage · {{package}}"
+    "copyright": "© 2026 LearnGuage"
   },
   "notFound": {
     "title": "Page introuvable",
@@ -117,7 +117,7 @@
   },
   "privacy": {
     "title": "Politique de Confidentialité",
-    "meta": "Date d'entrée en vigueur : 27 juillet 2026 · Application : {{app}} ({{package}})",
+    "meta": "Date d'entrée en vigueur : 27 juillet 2026 · Application : {{app}}",
     "translationNotice": "Cette traduction est fournie à titre informatif. En cas de divergence, la <a href=\"/privacy.html\">version anglaise</a> prévaut.",
     "blocks": [
       { "h2": "1. Qui nous sommes" },
@@ -166,7 +166,7 @@
   },
   "terms": {
     "title": "Conditions d'Utilisation",
-    "meta": "Date d'entrée en vigueur : 26 juillet 2026 · Application : {{app}} ({{package}})",
+    "meta": "Date d'entrée en vigueur : 26 juillet 2026 · Application : {{app}}",
     "translationNotice": "Cette traduction est fournie à titre informatif. En cas de divergence, la <a href=\"/terms.html\">version anglaise</a> prévaut.",
     "blocks": [
       { "h2": "1. Acceptation" },
@@ -209,7 +209,7 @@
   },
   "deleteAccount": {
     "title": "Suppression du Compte et des Données",
-    "meta": "Application : {{app}} ({{package}}) · <a href=\"{{url:privacy}}\">Politique de Confidentialité</a>",
+    "meta": "Application : {{app}} · <a href=\"{{url:privacy}}\">Politique de Confidentialité</a>",
     "translationNotice": "Cette traduction est fournie à titre informatif. En cas de divergence, la <a href=\"/delete-account.html\">version anglaise</a> prévaut.",
     "blocks": [
       { "h2": "1. Supprime ton compte depuis l'application (recommandé)" },
@@ -236,7 +236,7 @@
   },
   "support": {
     "title": "Assistance",
-    "meta": "Application : {{app}} ({{package}})",
+    "meta": "Application : {{app}}",
     "blocks": [
       { "h2": "Contact" },
       { "p": "Questions, signalements de bugs et suggestions : {{emailLink}}" },

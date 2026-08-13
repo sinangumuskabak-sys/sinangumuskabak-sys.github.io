@@ -18,7 +18,7 @@
   },
   "footer": {
     "contact": "Kontakt: {{emailLink}}",
-    "copyright": "© 2026 LearnGuage · {{package}}"
+    "copyright": "© 2026 LearnGuage"
   },
   "notFound": {
     "title": "Seite nicht gefunden",
@@ -117,7 +117,7 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "meta": "Gültig ab: 27. Juli 2026 · App: {{app}} ({{package}})",
+    "meta": "Gültig ab: 27. Juli 2026 · App: {{app}}",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/privacy.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
       { "h2": "1. Wer wir sind" },
@@ -166,7 +166,7 @@
   },
   "terms": {
     "title": "Nutzungsbedingungen",
-    "meta": "Gültig ab: 26. Juli 2026 · App: {{app}} ({{package}})",
+    "meta": "Gültig ab: 26. Juli 2026 · App: {{app}}",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/terms.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
       { "h2": "1. Zustimmung" },
@@ -209,7 +209,7 @@
   },
   "deleteAccount": {
     "title": "Konto- und Datenlöschung",
-    "meta": "App: {{app}} ({{package}}) · <a href=\"{{url:privacy}}\">Datenschutzerklärung</a>",
+    "meta": "App: {{app}} · <a href=\"{{url:privacy}}\">Datenschutzerklärung</a>",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/delete-account.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
       { "h2": "1. Konto in der App löschen (empfohlen)" },
@@ -236,7 +236,7 @@
   },
   "support": {
     "title": "Support",
-    "meta": "App: {{app}} ({{package}})",
+    "meta": "App: {{app}}",
     "blocks": [
       { "h2": "Kontakt" },
       { "p": "Fragen, Fehlerberichte und Vorschläge: {{emailLink}}" },

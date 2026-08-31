@@ -34,7 +34,7 @@
 </header>
 <main id="main" class="prose">
 <h1>Política de Privacidad</h1>
-<p class="muted">Fecha de entrada en vigor: 27 de julio de 2026 · Aplicación: LearnGuage</p>
+<p class="muted">Fecha de entrada en vigor: 31 de agosto de 2026 · Aplicación: LearnGuage</p>
 <p class="translation-notice">Esta traducción se ofrece a título informativo. En caso de discrepancia, prevalece la <a href="/privacy.html">versión en inglés</a>.</p>
 <h2>1. Quiénes somos</h2>
 <p>LearnGuage es una aplicación móvil de aprendizaje de idiomas. Esta política explica qué datos recopila la aplicación, por qué y cómo puedes controlarlos. Contacto: <a href="mailto:learngua@learnguage.app">learngua@learnguage.app</a></p>
@@ -43,6 +43,7 @@
 <ul>
   <li>Dirección de correo electrónico y contraseña (la contraseña se almacena únicamente cifrada mediante hash por nuestro proveedor de autenticación)</li>
   <li>Nombre visible y avatar elegido</li>
+  <li>Uso como invitado: cuando usas la aplicación sin registrarte, también se crea un <strong>registro de cuenta anónima</strong> en nuestro proveedor de autenticación. No contiene dirección de correo ni contraseña; solo guarda un identificador al que se vinculan tu progreso de aprendizaje y tu cuota diaria de traducción. Si creas una cuenta, ese mismo registro se convierte en tu cuenta permanente; si no lo haces, puedes eliminarlo desde la aplicación.</li>
 </ul>
 <h3>Datos de aprendizaje</h3>
 <ul>
@@ -52,28 +53,37 @@
   <li>Progreso de lectura y escucha (en qué libro/vídeo estás y hasta dónde has llegado)</li>
   <li>Preferencias de lectura (tamaño de letra, tema)</li>
 </ul>
+<h3>Datos publicitarios</h3>
+<ul>
+  <li>Identificador de publicidad: la aplicación muestra anuncios de vídeo bonificados opcionales. Google AdMob accede al identificador de publicidad de tu dispositivo para mostrarlos, medirlos y prevenir el fraude. Ver un anuncio nunca es obligatorio para usar ninguna función, y Premium elimina los anuncios por completo.</li>
+  <li>Eventos de finalización de anuncios: si un anuncio se vio hasta el final. Solo se usa para acreditar la cuota de traducción adicional que ganaste; nunca se vincula a tus palabras guardadas, tu progreso de lectura ni tus estadísticas.</li>
+</ul>
 <h3>Lo que NO recopilamos</h3>
 <ul>
   <li>Sin grabaciones de micrófono ni de audio</li>
   <li>Sin datos de ubicación</li>
   <li>Sin contactos, fotos ni archivos, salvo las imágenes que adjuntes explícitamente a las palabras guardadas</li>
-  <li>Sin identificadores publicitarios; la aplicación no contiene publicidad de terceros</li>
   <li>Sin datos de tarjetas de pago: los pagos de suscripción los procesa íntegramente Google Play; nunca vemos ni almacenamos información de tarjetas</li>
 </ul>
 <h2>3. Cómo usamos los datos</h2>
-<p>Los datos se usan únicamente para ofrecer la funcionalidad de la aplicación: iniciar tu sesión, sincronizar tu progreso entre sesiones y dispositivos, y mostrarte tus propias estadísticas. No vendemos datos, no los usamos con fines publicitarios y no los compartimos con terceros salvo con los proveedores de servicios indicados a continuación.</p>
+<p>Los datos se usan únicamente para ofrecer la funcionalidad de la aplicación: iniciar tu sesión, sincronizar tu progreso de aprendizaje entre sesiones y dispositivos y mostrarte tus propias estadísticas. No vendemos datos. Tu contenido de aprendizaje —palabras guardadas, progreso de lectura y estadísticas— nunca se usa para publicidad. No compartimos tus datos con terceros salvo con los proveedores indicados a continuación.</p>
 <h2>4. Dónde se almacenan los datos (encargados del tratamiento)</h2>
 <ul>
   <li><strong>Supabase</strong>: autenticación, base de datos y almacenamiento de archivos para los datos indicados arriba.</li>
   <li><strong>Google Play</strong>: distribución de la aplicación y facturación de suscripciones.</li>
   <li><strong>RevenueCat</strong>: gestión del estado de la suscripción sobre la facturación de Google Play.</li>
+  <li><strong>Servicio de traducción</strong> — cuando tocas una palabra o frase para traducirla, la traducción se hace primero en tu dispositivo. Si el modelo de traducción para ese par de idiomas aún no ha terminado de descargarse, el texto seleccionado se envía temporalmente a un servicio de traducción de terceros. Solo se envía el texto seleccionado; no se vincula a tu nombre, correo ni cuenta. Una vez descargado el modelo, la traducción se realiza por completo en tu dispositivo y esta vía deja de usarse.</li>
+  <li><strong>YouTube (Google)</strong> — el módulo de escucha reproduce vídeos mediante el reproductor de YouTube integrado. YouTube recopila datos de reproducción según su propia política de privacidad.</li>
+  <li><strong>Google AdMob</strong> — muestra los anuncios de vídeo bonificados opcionales y accede al identificador de publicidad de tu dispositivo para la entrega, la limitación de frecuencia y la prevención del fraude, conforme a la política de privacidad de Google.</li>
+  <li><strong>Cloudflare</strong> — los modelos de traducción sin conexión se descargan de Cloudflare R2 a través de un Cloudflare Worker. Cloudflare ve la dirección IP de tu dispositivo durante la descarga; no se envían datos de la cuenta.</li>
+  <li><strong>Pixabay</strong> — cuando buscas una imagen para adjuntarla a una palabra guardada, la búsqueda se ejecuta en nuestro servidor, pero las imágenes se cargan directamente desde Pixabay, por lo que Pixabay ve la dirección IP de tu dispositivo.</li>
 </ul>
 <h2>5. Conservación y eliminación de datos</h2>
 <p>Tus datos se conservan mientras exista tu cuenta. Puedes eliminar tu cuenta y todos los datos asociados en cualquier momento desde la aplicación: <strong>Ajustes → Cuenta → Eliminar cuenta</strong>. La eliminación tiene efecto inmediato. Si ya no puedes acceder a la aplicación, escribe a <a href="mailto:learngua@learnguage.app">learngua@learnguage.app</a> desde la dirección registrada en tu cuenta; la eliminación se completará en un plazo de 30 días. Consulta la <a href="/es/delete-account.html">página de eliminación de cuenta</a> para más detalles.</p>
 <h2>6. Seguridad</h2>
 <p>Los datos se transmiten mediante conexiones cifradas (HTTPS/TLS). El acceso en el servidor está restringido con seguridad a nivel de fila, de modo que cada usuario solo puede acceder a sus propios datos.</p>
 <h2>7. Menores</h2>
-<p>LearnGuage está dirigida al público general y no recopila conscientemente datos de menores de 13 años. Si crees que un menor nos ha facilitado datos, contáctanos y los eliminaremos.</p>
+<p>LearnGuage está dirigida al público general y no recopila conscientemente datos de menores de 13 años. Si crees que un menor nos ha facilitado datos, contáctanos y los eliminaremos. Los anuncios mostrados en la aplicación se limitan a la clasificación de contenido “Para todos los públicos”.</p>
 <h2>8. Este sitio web</h2>
 <p>Este sitio web está formado por páginas estáticas. No utiliza cookies, ni analítica, ni ningún tipo de seguimiento.</p>
 <h2>9. Cambios</h2>

@@ -14,29 +14,52 @@
     "privacy": "Privacy",
     "terms": "Terms",
     "delete-account": "Delete account",
-    "support": "Support"
+    "support": "Support",
+    "language": "Language"
   },
   "footer": {
     "contact": "Contact: {{emailLink}}",
-    "copyright": "© 2026 LearnGuage"
+    "copyright": "© 2026 LearnGuage",
+    "tagline": "Read, listen and memorize — LearnGuage teaches languages through real content.",
+    "interfaceLabel": "App interface",
+    "interfaceLangs": "English, Turkish, Spanish, Portuguese, French, German"
   },
   "notFound": {
     "title": "Page not found",
-    "body": "The page you are looking for does not exist. Choose a language to continue:"
+    "body": "The page you are looking for does not exist. Choose a language to continue:",
+    "description": "The page you are looking for does not exist. LearnGuage — learn a language with real content."
   },
   "home": {
     "headline": "Learn a language with real content",
     "subhead": "Read books, watch videos, tap any word you don't know, see its translation instantly and save it. Every saved word enters a smart spaced-repetition system — it comes back right before you'd forget it.",
     "cta": "Get it on Google Play",
     "ctaNote": "Free to use. Premium removes the daily limits.",
+    "demo": {
+      "badge": "Try it right now",
+      "hint": "Tap a highlighted word — this is exactly how LearnGuage works.",
+      "bookTitle": "Le vélo bleu de Hugo · Chapter 1",
+      "passage": "Hugo a un vieux **vélo**. Le **cadre** est abîmé et la **poussière** est sur les roues. La chaîne est **rouillée**. Hugo ne renonce pas : il veut **réparer** son vélo bleu.",
+      "words": {
+        "vélo": "bicycle; bike",
+        "cadre": "frame; the main structure of a bike",
+        "poussière": "dust",
+        "rouillée": "rusty; covered in rust",
+        "réparer": "to fix; to make something work again"
+      },
+      "save": "+ Add to my words",
+      "saved": "Saved ✓",
+      "showMore": "Show more ›",
+      "counterSuffix": "words saved",
+      "srsLine": "comes back in 1 day → 3 days → 1 week — right before you would forget it"
+    },
     "featuresTitle": "What you can do",
     "features": [
       {
         "title": "📖 Learn by reading",
         "items": [
-          "Books matched to your level (A1 to C2)",
+          "Books matched to your level (A1–C1 in English; A1–A2 in Spanish, German and French)",
           "Tap an unknown word for an instant translation",
-          "Long-press a sentence for its translation and a grammar explanation",
+          "Long-press a sentence to see its translation and add it to your grammar practice",
           "Add your own books and study with them"
         ]
       },
@@ -63,7 +86,7 @@
         "items": [
           "Save sentences from what you read and watch",
           "Reinforce them with sentence-ordering, quizzes and matching",
-          "Read grammar explanations in your native language"
+          "Build your own grammar set from the sentences you save"
         ]
       }
     ],
@@ -76,8 +99,6 @@
       "grammar": "Grammar practice"
     },
     "languagesTitle": "Languages",
-    "learnLanguages": "<strong>Learn:</strong> English, Spanish, German, French",
-    "uiLanguages": "<strong>App interface:</strong> English, Turkish, Spanish, Portuguese, French, German",
     "premiumTitle": "Free and Premium",
     "premiumBody": "LearnGuage is free to use. Free accounts get a daily allowance that is spent while unlocking book sections and watching listening content.",
     "premiumItems": [
@@ -107,149 +128,343 @@
       },
       {
         "q": "Does the app record audio or track my location?",
-        "a": "No. LearnGuage does not access your microphone or location, and contains no third-party advertising. See the <a href=\"{{url:privacy}}\">privacy policy</a>."
+        "a": "No. LearnGuage does not access your microphone or location. The app does show optional rewarded video ads through Google AdMob — watching one is never required to use any part of the app, and Premium removes ads entirely. See the <a href=\"{{url:privacy}}\">privacy policy</a>."
       },
       {
         "q": "Can I study with my own books?",
         "a": "Yes. You can add your own books and use the same tap-to-translate and word-saving tools with them."
       }
-    ]
+    ],
+    "qrNote": "or scan the code",
+    "heroEyebrow": "Free · Android · No ads",
+    "featuresKicker": "Modules",
+    "screensKicker": "Screenshots",
+    "srsKicker": "Spaced repetition",
+    "srsTitle": "How a word sticks",
+    "srsSub": "The app tracks each word's forgetting curve and brings it back at the right moment.",
+    "srsSteps": [
+      {
+        "t": "Tap it",
+        "d": "See the translation instantly, in context, while you read or watch."
+      },
+      {
+        "t": "Save it",
+        "d": "One tap adds it to your personal word list — with the sentence it came from."
+      },
+      {
+        "t": "Meet it again",
+        "d": "The word returns in a day, then three, then a week — just before you'd forget it."
+      }
+    ],
+    "srsCurve": "Each review flattens the forgetting curve: intervals stretch, effort shrinks, the word stays.",
+    "plansKicker": "Pricing",
+    "freeColTitle": "Free",
+    "premiumColTitle": "Premium",
+    "trialPill": "7-day free trial",
+    "premiumDesc": "Removes the daily limits and opens the whole catalogue.",
+    "freeItems": [
+      "Read, listen and study every day within a daily allowance",
+      "Full tap-to-translate and spaced-repetition tools",
+      "No ads, no tracking — delete your account any time"
+    ],
+    "faqKicker": "FAQ",
+    "closingTitle": "Your first book is waiting",
+    "qrLabel": "Scan to install on your phone",
+    "learnLangs": [
+      "English",
+      "Spanish",
+      "German",
+      "French"
+    ],
+    "learnLanguages": "<strong>Learn:</strong> English, Spanish, German, French",
+    "uiLanguages": "<strong>App interface:</strong> English, Turkish, Spanish, Portuguese, French, German"
   },
   "privacy": {
     "title": "Privacy Policy",
-    "meta": "Effective date: July 27, 2026 · App: {{app}}",
+    "meta": "Effective date: August 31, 2026 · App: {{app}}",
     "blocks": [
-      { "h2": "1. Who we are" },
-      { "p": "{{app}} is a language-learning mobile application. This policy explains what data the app collects, why, and how you can control it. Contact: {{emailLink}}" },
-      { "h2": "2. Data we collect" },
-      { "h3": "Account data" },
-      { "ul": [
-        "Email address and password (password is stored only in hashed form by our authentication provider)",
-        "Display name and chosen avatar"
-      ] },
-      { "h3": "Learning data" },
-      { "ul": [
-        "Selected native and target languages, self-assessed proficiency level",
-        "Saved words and sentences you add while studying, including optional images attached to words",
-        "Study statistics (streaks, correct-answer counts, memorized word counts)",
-        "Reading and listening progress (which book/video you are on and how far you got)",
-        "Reading preferences (font size, theme)"
-      ] },
-      { "h3": "What we do NOT collect" },
-      { "ul": [
-        "No microphone/audio recordings",
-        "No location data",
-        "No contacts, photos, or files beyond images you explicitly attach to saved words",
-        "No advertising identifiers; the app contains no third-party advertising",
-        "No payment card details — subscription payments are processed entirely by Google Play; we never see or store card information"
-      ] },
-      { "h2": "3. How we use data" },
-      { "p": "Data is used solely to provide the app's functionality: signing you in, syncing your learning progress across sessions and devices, and showing your own statistics back to you. We do not sell data, do not use it for advertising, and do not share it with third parties except the service providers below." },
-      { "h2": "4. Where data is stored (processors)" },
-      { "ul": [
-        "<strong>Supabase</strong> — authentication, database, and file storage for the data listed above.",
-        "<strong>Google Play</strong> — app distribution and subscription billing.",
-        "<strong>RevenueCat</strong> — subscription status management on top of Google Play billing."
-      ] },
-      { "h2": "5. Data retention and deletion" },
-      { "p": "Your data is kept while your account exists. You can delete your account and all associated data yourself at any time from the app: <strong>Settings → Account → Delete Account</strong>. Deletion takes effect immediately. If you can no longer access the app, email {{emailLink}} from the address registered to your account; deletion is then completed within 30 days. See the <a href=\"{{url:delete-account}}\">account deletion page</a> for details." },
-      { "h2": "6. Security" },
-      { "p": "Data is transmitted over encrypted connections (HTTPS/TLS). Server-side access is restricted with row-level security so that each user can only access their own data." },
-      { "h2": "7. Children" },
-      { "p": "{{app}} is intended for general audiences and does not knowingly collect data from children under 13. If you believe a child provided us data, contact us and we will delete it." },
-      { "h2": "8. This website" },
-      { "p": "This website is a set of static pages. It uses no cookies, no analytics and no tracking of any kind." },
-      { "h2": "9. Changes" },
-      { "p": "We may update this policy; the effective date above will change and material changes will be communicated in the app." }
+      {
+        "h2": "1. Who we are"
+      },
+      {
+        "p": "{{app}} is a language-learning mobile application. This policy explains what data the app collects, why, and how you can control it. Contact: {{emailLink}}"
+      },
+      {
+        "h2": "2. Data we collect"
+      },
+      {
+        "h3": "Account data"
+      },
+      {
+        "ul": [
+          "Email address and password (password is stored only in hashed form by our authentication provider)",
+          "Display name and chosen avatar",
+          "Guest use — when you use the app without signing up, an <strong>anonymous account record</strong> is still created with our authentication provider. It contains no email address and no password; it holds only an identifier your learning progress and daily translation allowance are attached to. If you create an account, that same record becomes your permanent account; if you do not, you can delete it from within the app."
+        ]
+      },
+      {
+        "h3": "Learning data"
+      },
+      {
+        "ul": [
+          "Selected native and target languages, self-assessed proficiency level",
+          "Saved words and sentences you add while studying, including optional images attached to words",
+          "Study statistics (streaks, correct-answer counts, memorized word counts)",
+          "Reading and listening progress (which book/video you are on and how far you got)",
+          "Reading preferences (font size, theme)"
+        ]
+      },
+      {
+        "h3": "Advertising data"
+      },
+      {
+        "ul": [
+          "Advertising ID — the app shows optional rewarded video ads. Google AdMob accesses your device's advertising ID to deliver and measure them and to prevent fraud. Watching an ad is never required to use any part of the app, and Premium removes ads entirely.",
+          "Ad completion events — whether an ad was watched to the end. This is used only to credit the extra translation quota you earned; it is never linked to your saved words, reading progress or statistics."
+        ]
+      },
+      {
+        "h3": "What we do NOT collect"
+      },
+      {
+        "ul": [
+          "No microphone/audio recordings",
+          "No location data",
+          "No contacts, photos, or files beyond images you explicitly attach to saved words",
+          "No payment card details — subscription payments are processed entirely by Google Play; we never see or store card information"
+        ]
+      },
+      {
+        "h2": "3. How we use data"
+      },
+      {
+        "p": "Data is used solely to provide the app’s functionality: signing you in, syncing your learning progress across sessions and devices, and showing your own statistics back to you. We do not sell data. Your learning content — saved words, reading progress and statistics — is never used for advertising. We do not share your data with third parties except the service providers below."
+      },
+      {
+        "h2": "4. Where data is stored (processors)"
+      },
+      {
+        "ul": [
+          "<strong>Supabase</strong> — authentication, database, and file storage for the data listed above.",
+          "<strong>Google Play</strong> — app distribution and subscription billing.",
+          "<strong>RevenueCat</strong> — subscription status management on top of Google Play billing.",
+          "<strong>Translation service</strong> — when you tap a word or sentence for translation, the translation is done on your device first. If the translation model for that language pair has not finished downloading, the selected text is temporarily sent to a third-party translation service. Only the selected text is sent; it is not linked to your name, email or account. Once the model is downloaded, translation happens entirely on your device and this path is no longer used.",
+          "<strong>YouTube (Google)</strong> — the listening module plays videos through the embedded YouTube player. YouTube collects playback data under Google’s own privacy policy.",
+          "<strong>Google AdMob</strong> — serves the optional rewarded video ads and accesses your device's advertising ID for ad delivery, frequency capping and fraud prevention, under Google's own privacy policy.",
+          "<strong>Cloudflare</strong> — offline translation models are downloaded from Cloudflare R2 through a Cloudflare Worker. Cloudflare sees your device’s IP address during the download; no account data is sent.",
+          "<strong>Pixabay</strong> — when you search for a picture to attach to a saved word, the search runs on our server, but the images shown are loaded directly from Pixabay, so Pixabay sees your device’s IP address."
+        ]
+      },
+      {
+        "h2": "5. Data retention and deletion"
+      },
+      {
+        "p": "Your data is kept while your account exists. You can delete your account and all associated data yourself at any time from the app: <strong>Settings → Account → Delete Account</strong>. Deletion takes effect immediately. If you can no longer access the app, email {{emailLink}} from the address registered to your account; deletion is then completed within 30 days. See the <a href=\"{{url:delete-account}}\">account deletion page</a> for details."
+      },
+      {
+        "h2": "6. Security"
+      },
+      {
+        "p": "Data is transmitted over encrypted connections (HTTPS/TLS). Server-side access is restricted with row-level security so that each user can only access their own data."
+      },
+      {
+        "h2": "7. Children"
+      },
+      {
+        "p": "{{app}} is intended for general audiences and does not knowingly collect data from children under 13. If you believe a child provided us data, contact us and we will delete it. Ads shown in the app are limited to the “General audiences” content rating."
+      },
+      {
+        "h2": "8. This website"
+      },
+      {
+        "p": "This website is a set of static pages. It uses no cookies, no analytics and no tracking of any kind."
+      },
+      {
+        "h2": "9. Changes"
+      },
+      {
+        "p": "We may update this policy; the effective date above will change and material changes will be communicated in the app."
+      }
     ]
   },
   "terms": {
     "title": "Terms of Use",
     "meta": "Effective date: July 26, 2026 · App: {{app}}",
     "blocks": [
-      { "h2": "1. Agreement" },
-      { "p": "By downloading or using {{app}} (\"the app\"), you agree to these Terms of Use. If you do not agree, please do not use the app. Contact: {{emailLink}}" },
-      { "h2": "2. The service" },
-      { "p": "{{app}} is a language-learning application offering reading, listening, vocabulary and grammar practice. Free use is subject to daily usage limits. Premium removes those limits." },
-      { "h2": "3. Accounts" },
-      { "ul": [
-        "You must provide a valid email address and keep your credentials secure.",
-        "You are responsible for activity that occurs under your account.",
-        "You may delete your account at any time from the app (Settings → Account) or via <a href=\"{{url:delete-account}}\">this page</a>."
-      ] },
-      { "h2": "4. Subscriptions and payment" },
-      { "ul": [
-        "Premium is offered as a monthly or yearly auto-renewing subscription, sold through Google Play.",
-        "The price shown in the app at the time of purchase applies. Prices may change; any change applies only to future renewal periods and is announced beforehand.",
-        "<strong>Auto-renewal:</strong> your subscription renews automatically at the end of each period unless you cancel at least 24 hours before the period ends.",
-        "<strong>Cancellation:</strong> manage or cancel at any time in <a href=\"{{playSubs}}\">Google Play → Subscriptions</a>. Cancelling stops future renewals; you keep Premium until the end of the paid period.",
-        "<strong>Refunds</strong> are handled by Google Play according to Google's refund policy.",
-        "If a free trial is offered, cancelling before the trial ends prevents any charge."
-      ] },
-      { "h2": "5. Free usage limits" },
-      { "p": "Free accounts receive a limited number of daily \"lives\" that are consumed while reading book sections and watching listening content. Lives reset daily. These limits may be adjusted to keep the service sustainable; adjustments never affect an active Premium subscription." },
-      { "h2": "6. Content and intellectual property" },
-      { "ul": [
-        "Books in the catalogue are either original works created for {{app}} or public-domain works whose copyright has expired.",
-        "Listening content consists of third-party videos played through the official YouTube player; those videos belong to their respective owners.",
-        "You may not copy, redistribute or resell app content outside the app.",
-        "Content you add yourself (your own books, words, notes) remains yours."
-      ] },
-      { "h2": "7. Acceptable use" },
-      { "p": "You agree not to: reverse engineer the app, bypass usage limits or payment mechanisms, upload unlawful or infringing content, or disrupt the service for other users." },
-      { "h2": "8. Disclaimer" },
-      { "p": "The app is provided \"as is\". We do not guarantee uninterrupted availability or that the learning content is free of errors. To the extent permitted by law, we are not liable for indirect damages arising from use of the app." },
-      { "h2": "9. Changes" },
-      { "p": "These terms may be updated. Material changes will be announced in the app or on this page with a new effective date. Continued use after a change means you accept the updated terms." },
-      { "h2": "10. Governing law" },
-      { "p": "These terms are governed by the laws of the Republic of Türkiye. Your statutory consumer rights are not affected." }
+      {
+        "h2": "1. Agreement"
+      },
+      {
+        "p": "By downloading or using {{app}} (\"the app\"), you agree to these Terms of Use. If you do not agree, please do not use the app. Contact: {{emailLink}}"
+      },
+      {
+        "h2": "2. The service"
+      },
+      {
+        "p": "{{app}} is a language-learning application offering reading, listening, vocabulary and grammar practice. Free use is subject to daily usage limits. Premium removes those limits."
+      },
+      {
+        "h2": "3. Accounts"
+      },
+      {
+        "ul": [
+          "You must provide a valid email address and keep your credentials secure.",
+          "You are responsible for activity that occurs under your account.",
+          "You may delete your account at any time from the app (Settings → Account) or via <a href=\"{{url:delete-account}}\">this page</a>."
+        ]
+      },
+      {
+        "h2": "4. Subscriptions and payment"
+      },
+      {
+        "ul": [
+          "Premium is offered as a monthly or yearly auto-renewing subscription, sold through Google Play.",
+          "The price shown in the app at the time of purchase applies. Prices may change; any change applies only to future renewal periods and is announced beforehand.",
+          "<strong>Auto-renewal:</strong> your subscription renews automatically at the end of each period unless you cancel at least 24 hours before the period ends.",
+          "<strong>Cancellation:</strong> manage or cancel at any time in <a href=\"{{playSubs}}\">Google Play → Subscriptions</a>. Cancelling stops future renewals; you keep Premium until the end of the paid period.",
+          "<strong>Refunds</strong> are handled by Google Play according to Google's refund policy.",
+          "If a free trial is offered, cancelling before the trial ends prevents any charge."
+        ]
+      },
+      {
+        "h2": "5. Free usage limits"
+      },
+      {
+        "p": "Reading books, watching listening content, grammar practice and vocabulary review are not limited on free accounts. The only free-tier limit is on translation: 50 word translations and 25 sentence translations per day. Reaching the limit does not lock any content — you can keep reading, listening and practising; only new translations pause until the quota resets at midnight in your local time zone. These limits may be adjusted to keep the service sustainable; adjustments never affect an active Premium subscription."
+      },
+      {
+        "h2": "6. Content and intellectual property"
+      },
+      {
+        "ul": [
+          "Books in the catalogue are either original works created for {{app}} or public-domain works whose copyright has expired.",
+          "Listening content consists of third-party videos played through the official YouTube player; those videos belong to their respective owners.",
+          "You may not copy, redistribute or resell app content outside the app.",
+          "Content you add yourself (your own books, words, notes) remains yours."
+        ]
+      },
+      {
+        "h2": "7. Acceptable use"
+      },
+      {
+        "p": "You agree not to: reverse engineer the app, bypass usage limits or payment mechanisms, upload unlawful or infringing content, or disrupt the service for other users."
+      },
+      {
+        "h2": "8. Disclaimer"
+      },
+      {
+        "p": "The app is provided \"as is\". We do not guarantee uninterrupted availability or that the learning content is free of errors. To the extent permitted by law, we are not liable for indirect damages arising from use of the app."
+      },
+      {
+        "h2": "9. Changes"
+      },
+      {
+        "p": "These terms may be updated. Material changes will be announced in the app or on this page with a new effective date. Continued use after a change means you accept the updated terms."
+      },
+      {
+        "h2": "10. Governing law"
+      },
+      {
+        "p": "These terms are governed by the laws of the Republic of Türkiye. Your statutory consumer rights are not affected."
+      }
     ]
   },
   "deleteAccount": {
     "title": "Account & Data Deletion",
     "meta": "App: {{app}} · <a href=\"{{url:privacy}}\">Privacy Policy</a>",
     "blocks": [
-      { "h2": "1. Delete your account inside the app (recommended)" },
-      { "p": "You can delete your account and all associated data yourself, instantly, from within the app:" },
-      { "ol": [
-        "Open {{app}} and sign in",
-        "Go to <strong>Settings</strong>",
-        "Under the <strong>Account</strong> section, tap <strong>Delete Account</strong>",
-        "Type the confirmation word shown on screen and confirm"
-      ] },
-      { "p": "Deletion takes effect immediately and cannot be undone." },
-      { "h2": "2. Request deletion by email" },
-      { "p": "If you can no longer access the app (lost device, forgotten password, uninstalled app), send a deletion request to {{emailLink}} <strong>from the email address registered to your {{app}} account</strong>, with the subject \"Account deletion request\". Your account and data will be deleted within 30 days at the latest, and you will receive a confirmation reply." },
-      { "h2": "3. What gets deleted" },
-      { "ul": [
-        "Profile information (display name, email link, avatar)",
-        "All learning data (saved words and sentences, progress, language-pair data, daily study records, statistics)",
-        "Images you attached to saved words (removed from file storage)",
-        "Subscription record held by the app (note: to stop billing, also cancel the subscription in <a href=\"{{playSubs}}\">Google Play → Subscriptions</a> — deleting the account does not cancel a Google Play subscription)",
-        "The authentication account itself"
-      ] },
-      { "p": "Deletion is permanent and irreversible. No additional copies of your personal data are retained after deletion. Books/PDFs you added yourself are stored only on your device and are removed when the app's data is cleared." }
+      {
+        "h2": "1. Delete your account inside the app (recommended)"
+      },
+      {
+        "p": "You can delete your account and all associated data yourself, instantly, from within the app:"
+      },
+      {
+        "ol": [
+          "Open {{app}} and sign in",
+          "Go to <strong>Settings</strong>",
+          "Under the <strong>Account</strong> section, tap <strong>Delete Account</strong>",
+          "Type the confirmation word shown on screen and confirm"
+        ]
+      },
+      {
+        "p": "Deletion takes effect immediately and cannot be undone."
+      },
+      {
+        "h2": "2. Request deletion by email"
+      },
+      {
+        "p": "If you can no longer access the app (lost device, forgotten password, uninstalled app), send a deletion request to {{emailLink}} <strong>from the email address registered to your {{app}} account</strong>, with the subject \"Account deletion request\". Your account and data will be deleted within 30 days at the latest, and you will receive a confirmation reply."
+      },
+      {
+        "h2": "3. What gets deleted"
+      },
+      {
+        "ul": [
+          "Profile information (display name, email link, avatar)",
+          "All learning data (saved words and sentences, progress, language-pair data, daily study records, statistics)",
+          "Images you attached to saved words (removed from file storage)",
+          "Subscription record held by the app (note: to stop billing, also cancel the subscription in <a href=\"{{playSubs}}\">Google Play → Subscriptions</a> — deleting the account does not cancel a Google Play subscription)",
+          "The authentication account itself"
+        ]
+      },
+      {
+        "p": "Deletion is permanent and irreversible. No additional copies of your personal data are retained after deletion. Books/PDFs you added yourself are stored only on your device and are removed when the app's data is cleared."
+      }
     ]
   },
   "support": {
     "title": "Support",
     "meta": "App: {{app}}",
     "blocks": [
-      { "h2": "Contact" },
-      { "p": "Questions, bug reports and suggestions: {{emailLink}}" },
-      { "p": "Please write in English or Turkish, and include your device model, Android version and the app version (Settings → About) if you are reporting a problem. Replies usually take 1–3 business days." },
-      { "h2": "I bought Premium but the app still shows limits" },
-      { "p": "Open the app and pull down to refresh, or sign out and back in — the subscription is verified against Google Play on start-up. If it still doesn't unlock after a few minutes, email us with the Google Play order number and we will look into it." },
-      { "h2": "How do I restore a purchase on a new device?" },
-      { "p": "Sign in with the same account you used when purchasing, then use <strong>Restore purchases</strong> on the subscription screen. The subscription is tied to your Google account, so make sure you are signed in to Google Play with the account that made the purchase." },
-      { "h2": "How do I cancel or get a refund?" },
-      { "p": "Cancel any time in <a href=\"{{playSubs}}\">Google Play → Subscriptions</a>. Cancelling stops future renewals; Premium continues until the end of the period you already paid for. Refunds are handled by Google Play under Google's refund policy." },
-      { "h2": "I forgot my password" },
-      { "p": "On the sign-in screen, tap <strong>Forgot password</strong> and enter your email address. A reset link will be sent to you. If it doesn't arrive within a few minutes, check your spam folder." },
-      { "h2": "How do I delete my account?" },
-      { "p": "In the app: <strong>Settings → Account → Delete Account</strong>. Full details, including how to request deletion by email if you can't access the app, are on the <a href=\"{{url:delete-account}}\">account deletion page</a>." },
-      { "h2": "Reporting content problems" },
-      { "p": "If a book, video or translation is wrong or inappropriate, email us with the title and, if possible, a screenshot. Content reported this way is reviewed and corrected or removed." }
+      {
+        "h2": "Contact"
+      },
+      {
+        "p": "Questions, bug reports and suggestions: {{emailLink}}"
+      },
+      {
+        "p": "Please write in English or Turkish, and include your device model, Android version and the app version (Settings → About) if you are reporting a problem. Replies usually take 1–3 business days."
+      },
+      {
+        "h2": "I bought Premium but the app still shows limits"
+      },
+      {
+        "p": "Open the app and pull down to refresh, or sign out and back in — the subscription is verified against Google Play on start-up. If it still doesn't unlock after a few minutes, email us with the Google Play order number and we will look into it."
+      },
+      {
+        "h2": "How do I restore a purchase on a new device?"
+      },
+      {
+        "p": "Sign in with the same account you used when purchasing, then use <strong>Restore purchases</strong> on the subscription screen. The subscription is tied to your Google account, so make sure you are signed in to Google Play with the account that made the purchase."
+      },
+      {
+        "h2": "How do I cancel or get a refund?"
+      },
+      {
+        "p": "Cancel any time in <a href=\"{{playSubs}}\">Google Play → Subscriptions</a>. Cancelling stops future renewals; Premium continues until the end of the period you already paid for. Refunds are handled by Google Play under Google's refund policy."
+      },
+      {
+        "h2": "I forgot my password"
+      },
+      {
+        "p": "On the sign-in screen, tap <strong>Forgot password</strong> and enter your email address. A reset link will be sent to you. If it doesn't arrive within a few minutes, check your spam folder."
+      },
+      {
+        "h2": "How do I delete my account?"
+      },
+      {
+        "p": "In the app: <strong>Settings → Account → Delete Account</strong>. Full details, including how to request deletion by email if you can't access the app, are on the <a href=\"{{url:delete-account}}\">account deletion page</a>."
+      },
+      {
+        "h2": "Reporting content problems"
+      },
+      {
+        "p": "If a book, video or translation is wrong or inappropriate, email us with the title and, if possible, a screenshot. Content reported this way is reviewed and corrected or removed."
+      }
     ]
+  },
+  "doc": {
+    "onThisPage": "On this page"
   }
 }

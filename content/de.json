@@ -14,29 +14,52 @@
     "privacy": "Datenschutz",
     "terms": "Bedingungen",
     "delete-account": "Konto löschen",
-    "support": "Support"
+    "support": "Support",
+    "language": "Sprache"
   },
   "footer": {
     "contact": "Kontakt: {{emailLink}}",
-    "copyright": "© 2026 LearnGuage"
+    "copyright": "© 2026 LearnGuage",
+    "tagline": "Lesen, hören, merken — LearnGuage bringt Sprachen mit echten Inhalten bei.",
+    "interfaceLabel": "App-Oberfläche",
+    "interfaceLangs": "Deutsch, Englisch, Türkisch, Spanisch, Portugiesisch, Französisch"
   },
   "notFound": {
     "title": "Seite nicht gefunden",
-    "body": "Die gesuchte Seite existiert nicht. Wähle eine Sprache, um fortzufahren:"
+    "body": "Die gesuchte Seite existiert nicht. Wähle eine Sprache, um fortzufahren:",
+    "description": "Die gesuchte Seite existiert nicht. LearnGuage — lerne Sprachen mit echten Inhalten."
   },
   "home": {
     "headline": "Lerne eine Sprache mit echten Inhalten",
     "subhead": "Lies Bücher, schau Videos, tippe auf ein unbekanntes Wort, sieh sofort die Übersetzung und speichere es. Jedes gespeicherte Wort landet in einem intelligenten System mit verteilter Wiederholung — es taucht genau dann wieder auf, kurz bevor du es vergessen würdest.",
     "cta": "Bei Google Play herunterladen",
     "ctaNote": "Kostenlos nutzbar. Premium hebt die Tageslimits auf.",
+    "demo": {
+      "badge": "Jetzt ausprobieren",
+      "hint": "Tippe auf ein hervorgehobenes Wort — genau so funktioniert LearnGuage.",
+      "bookTitle": "Le vélo bleu de Hugo · Kapitel 1",
+      "passage": "Hugo a un vieux **vélo**. Le **cadre** est abîmé et la **poussière** est sur les roues. La chaîne est **rouillée**. Hugo ne renonce pas : il veut **réparer** son vélo bleu.",
+      "words": {
+        "vélo": "Fahrrad",
+        "cadre": "Rahmen; das Hauptgestänge eines Fahrrads",
+        "poussière": "Staub",
+        "rouillée": "verrostet; mit Rost bedeckt",
+        "réparer": "reparieren; wieder funktionsfähig machen"
+      },
+      "save": "+ Zu meinen Wörtern",
+      "saved": "Gespeichert ✓",
+      "showMore": "Mehr anzeigen ›",
+      "counterSuffix": "Wörter gespeichert",
+      "srsLine": "kehrt nach 1 Tag → 3 Tagen → 1 Woche zurück — kurz bevor du es vergisst"
+    },
     "featuresTitle": "Was du tun kannst",
     "features": [
       {
         "title": "📖 Lernen durch Lesen",
         "items": [
-          "Bücher passend zu deinem Niveau (A1 bis C2)",
+          "Bücher passend zu deinem Niveau (A1–C1 auf Englisch; A1–A2 auf Spanisch, Deutsch und Französisch)",
           "Tippe auf ein unbekanntes Wort für die sofortige Übersetzung",
-          "Halte einen Satz gedrückt für Übersetzung und Grammatikerklärung",
+          "Halte einen Satz gedrückt, um die Übersetzung zu sehen und ihn zu deinen Grammatikübungen hinzuzufügen",
           "Füge eigene Bücher hinzu und lerne damit"
         ]
       },
@@ -63,7 +86,7 @@
         "items": [
           "Speichere Sätze aus dem, was du liest und schaust",
           "Festige sie mit Satzordnung, Quiz und Zuordnungen",
-          "Lies Grammatikerklärungen in deiner Muttersprache"
+          "Baue aus den gespeicherten Sätzen dein eigenes Grammatik-Set auf"
         ]
       }
     ],
@@ -76,8 +99,6 @@
       "grammar": "Grammatikübungen"
     },
     "languagesTitle": "Sprachen",
-    "learnLanguages": "<strong>Lernbare Sprachen:</strong> Englisch, Spanisch, Deutsch, Französisch",
-    "uiLanguages": "<strong>App-Oberfläche:</strong> Deutsch, Englisch, Türkisch, Spanisch, Portugiesisch, Französisch",
     "premiumTitle": "Kostenlos und Premium",
     "premiumBody": "LearnGuage ist kostenlos nutzbar. Kostenlose Konten erhalten ein Tageskontingent, das beim Freischalten von Buchabschnitten und beim Ansehen von Hörinhalten verbraucht wird.",
     "premiumItems": [
@@ -107,61 +128,164 @@
       },
       {
         "q": "Nimmt die App Audio auf oder verfolgt sie meinen Standort?",
-        "a": "Nein. LearnGuage greift weder auf dein Mikrofon noch auf deinen Standort zu und enthält keine Werbung Dritter. Siehe die <a href=\"{{url:privacy}}\">Datenschutzerklärung</a>."
+        "a": "Nein. LearnGuage greift weder auf Ihr Mikrofon noch auf Ihren Standort zu. Die App zeigt optionale belohnte Videoanzeigen über Google AdMob — das Ansehen ist nie erforderlich, um eine Funktion zu nutzen, und Premium entfernt Anzeigen vollständig. Siehe die <a href=\"{{url:privacy}}\">Datenschutzerklärung</a>."
       },
       {
         "q": "Kann ich mit eigenen Büchern lernen?",
         "a": "Ja. Du kannst eigene Bücher hinzufügen und dieselben Funktionen zum Antippen-Übersetzen und Wörter-Speichern damit nutzen."
       }
-    ]
+    ],
+    "qrNote": "oder Code scannen",
+    "heroEyebrow": "Kostenlos · Android · Ohne Werbung",
+    "featuresKicker": "Module",
+    "screensKicker": "Screenshots",
+    "srsKicker": "Verteiltes Wiederholen",
+    "srsTitle": "Wie ein Wort hängen bleibt",
+    "srsSub": "Die App verfolgt die Vergessenskurve jedes Worts und holt es im richtigen Moment zurück.",
+    "srsSteps": [
+      {
+        "t": "Tippe es an",
+        "d": "Sieh die Übersetzung sofort, im Kontext, beim Lesen oder Schauen."
+      },
+      {
+        "t": "Speichere es",
+        "d": "Ein Tipp fügt es zu deiner persönlichen Wortliste hinzu — samt Beispielsatz."
+      },
+      {
+        "t": "Es ist wieder da",
+        "d": "Das Wort kehrt nach einem Tag, dann drei, dann einer Woche zurück — kurz vor dem Vergessen."
+      }
+    ],
+    "srsCurve": "Jede Wiederholung flacht die Vergessenskurve ab: Die Abstände wachsen, der Aufwand sinkt, das Wort bleibt.",
+    "plansKicker": "Preise",
+    "freeColTitle": "Kostenlos",
+    "premiumColTitle": "Premium",
+    "trialPill": "7 Tage kostenlos testen",
+    "premiumDesc": "Entfernt die Tageslimits und öffnet den gesamten Katalog.",
+    "freeItems": [
+      "Lies, höre und lerne täglich innerhalb des Tageskontingents",
+      "Vollständige Funktionen: Übersetzen durch Antippen und verteilte Wiederholung",
+      "Keine Werbung, kein Tracking — Konto jederzeit löschbar"
+    ],
+    "faqKicker": "FAQ",
+    "closingTitle": "Dein erstes Buch wartet",
+    "qrLabel": "Zum Installieren aufs Handy scannen",
+    "learnLangs": [
+      "Englisch",
+      "Spanisch",
+      "Deutsch",
+      "Französisch"
+    ],
+    "learnLanguages": "<strong>Lernbare Sprachen:</strong> Englisch, Spanisch, Deutsch, Französisch",
+    "uiLanguages": "<strong>App-Oberfläche:</strong> Deutsch, Englisch, Türkisch, Spanisch, Portugiesisch, Französisch"
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "meta": "Gültig ab: 27. Juli 2026 · App: {{app}}",
+    "meta": "Gültig ab: 31. August 2026 · App: {{app}}",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/privacy.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
-      { "h2": "1. Wer wir sind" },
-      { "p": "{{app}} ist eine mobile App zum Sprachenlernen. Diese Erklärung beschreibt, welche Daten die App erhebt, warum, und wie du sie kontrollieren kannst. Kontakt: {{emailLink}}" },
-      { "h2": "2. Erhobene Daten" },
-      { "h3": "Kontodaten" },
-      { "ul": [
-        "E-Mail-Adresse und Passwort (das Passwort wird von unserem Authentifizierungsanbieter ausschließlich als Hash gespeichert)",
-        "Anzeigename und gewählter Avatar"
-      ] },
-      { "h3": "Lerndaten" },
-      { "ul": [
-        "Ausgewählte Muttersprache und Zielsprache, selbst eingeschätztes Niveau",
-        "Wörter und Sätze, die du beim Lernen speicherst, einschließlich optionaler Bilder zu Wörtern",
-        "Lernstatistiken (Serien, Anzahl richtiger Antworten, Anzahl gelernter Wörter)",
-        "Lese- und Hörfortschritt (welches Buch/Video und wie weit du gekommen bist)",
-        "Leseeinstellungen (Schriftgröße, Design)"
-      ] },
-      { "h3": "Was wir NICHT erheben" },
-      { "ul": [
-        "Keine Mikrofon- oder Audioaufnahmen",
-        "Keine Standortdaten",
-        "Keine Kontakte, Fotos oder Dateien, abgesehen von Bildern, die du ausdrücklich zu gespeicherten Wörtern hinzufügst",
-        "Keine Werbe-IDs; die App enthält keine Werbung Dritter",
-        "Keine Zahlungskartendaten — Abo-Zahlungen werden vollständig von Google Play abgewickelt; wir sehen und speichern niemals Kartendaten"
-      ] },
-      { "h2": "3. Verwendung der Daten" },
-      { "p": "Die Daten dienen ausschließlich der Funktion der App: dich anzumelden, deinen Lernfortschritt zwischen Sitzungen und Geräten zu synchronisieren und dir deine eigenen Statistiken anzuzeigen. Wir verkaufen keine Daten, nutzen sie nicht für Werbung und geben sie außer an die unten genannten Dienstleister nicht an Dritte weiter." },
-      { "h2": "4. Wo die Daten gespeichert werden (Auftragsverarbeiter)" },
-      { "ul": [
-        "<strong>Supabase</strong> — Authentifizierung, Datenbank und Dateispeicher für die oben genannten Daten.",
-        "<strong>Google Play</strong> — App-Vertrieb und Abo-Abrechnung.",
-        "<strong>RevenueCat</strong> — Verwaltung des Abo-Status oberhalb der Google-Play-Abrechnung."
-      ] },
-      { "h2": "5. Speicherdauer und Löschung" },
-      { "p": "Deine Daten werden gespeichert, solange dein Konto besteht. Du kannst dein Konto und alle zugehörigen Daten jederzeit selbst in der App löschen: <strong>Einstellungen → Konto → Konto löschen</strong>. Die Löschung wirkt sofort. Wenn du keinen Zugriff mehr auf die App hast, schreibe von der bei deinem Konto registrierten Adresse an {{emailLink}}; die Löschung erfolgt dann innerhalb von 30 Tagen. Einzelheiten auf der <a href=\"{{url:delete-account}}\">Seite zur Kontolöschung</a>." },
-      { "h2": "6. Sicherheit" },
-      { "p": "Die Daten werden über verschlüsselte Verbindungen (HTTPS/TLS) übertragen. Der serverseitige Zugriff ist durch Sicherheit auf Zeilenebene beschränkt, sodass jede Nutzerin und jeder Nutzer nur auf die eigenen Daten zugreifen kann." },
-      { "h2": "7. Kinder" },
-      { "p": "{{app}} richtet sich an ein allgemeines Publikum und erhebt nicht wissentlich Daten von Kindern unter 13 Jahren. Wenn du glaubst, dass ein Kind uns Daten übermittelt hat, kontaktiere uns und wir löschen sie." },
-      { "h2": "8. Diese Website" },
-      { "p": "Diese Website besteht aus statischen Seiten. Sie verwendet keine Cookies, keine Analysetools und kein Tracking jeglicher Art." },
-      { "h2": "9. Änderungen" },
-      { "p": "Wir können diese Erklärung aktualisieren; das oben genannte Gültigkeitsdatum ändert sich und wesentliche Änderungen werden in der App mitgeteilt." }
+      {
+        "h2": "1. Wer wir sind"
+      },
+      {
+        "p": "{{app}} ist eine mobile App zum Sprachenlernen. Diese Erklärung beschreibt, welche Daten die App erhebt, warum, und wie du sie kontrollieren kannst. Kontakt: {{emailLink}}"
+      },
+      {
+        "h2": "2. Erhobene Daten"
+      },
+      {
+        "h3": "Kontodaten"
+      },
+      {
+        "ul": [
+          "E-Mail-Adresse und Passwort (das Passwort wird von unserem Authentifizierungsanbieter ausschließlich als Hash gespeichert)",
+          "Anzeigename und gewählter Avatar",
+          "Gastnutzung — wenn Sie die App ohne Registrierung nutzen, wird bei unserem Authentifizierungsanbieter dennoch ein <strong>anonymer Kontodatensatz</strong> angelegt. Er enthält weder E-Mail-Adresse noch Passwort; er speichert nur eine Kennung, an die Ihr Lernfortschritt und Ihr tägliches Übersetzungskontingent gebunden sind. Wenn Sie ein Konto erstellen, wird aus diesem Datensatz Ihr dauerhaftes Konto; andernfalls können Sie ihn in der App löschen."
+        ]
+      },
+      {
+        "h3": "Lerndaten"
+      },
+      {
+        "ul": [
+          "Ausgewählte Muttersprache und Zielsprache, selbst eingeschätztes Niveau",
+          "Wörter und Sätze, die du beim Lernen speicherst, einschließlich optionaler Bilder zu Wörtern",
+          "Lernstatistiken (Serien, Anzahl richtiger Antworten, Anzahl gelernter Wörter)",
+          "Lese- und Hörfortschritt (welches Buch/Video und wie weit du gekommen bist)",
+          "Leseeinstellungen (Schriftgröße, Design)"
+        ]
+      },
+      {
+        "h3": "Werbedaten"
+      },
+      {
+        "ul": [
+          "Werbe-ID — die App zeigt optionale belohnte Videoanzeigen. Google AdMob greift auf die Werbe-ID Ihres Geräts zu, um diese auszuliefern, zu messen und Betrug zu verhindern. Das Ansehen einer Anzeige ist nie erforderlich, um eine Funktion zu nutzen, und Premium entfernt Anzeigen vollständig.",
+          "Anzeigen-Abschlussereignisse — ob eine Anzeige bis zum Ende angesehen wurde. Wird ausschließlich verwendet, um Ihnen das zusätzlich verdiente Übersetzungskontingent gutzuschreiben; es wird niemals mit Ihren gespeicherten Wörtern, Ihrem Lesefortschritt oder Ihren Statistiken verknüpft."
+        ]
+      },
+      {
+        "h3": "Was wir NICHT erheben"
+      },
+      {
+        "ul": [
+          "Keine Mikrofon- oder Audioaufnahmen",
+          "Keine Standortdaten",
+          "Keine Kontakte, Fotos oder Dateien, abgesehen von Bildern, die du ausdrücklich zu gespeicherten Wörtern hinzufügst",
+          "Keine Zahlungskartendaten — Abo-Zahlungen werden vollständig von Google Play abgewickelt; wir sehen und speichern niemals Kartendaten"
+        ]
+      },
+      {
+        "h2": "3. Verwendung der Daten"
+      },
+      {
+        "p": "Daten werden ausschließlich zur Bereitstellung der App-Funktionen verwendet: Anmeldung, Synchronisierung deines Lernfortschritts über Sitzungen und Geräte hinweg sowie Anzeige deiner eigenen Statistiken. Wir verkaufen keine Daten. Deine Lerninhalte — gespeicherte Wörter, Lesefortschritt und Statistiken — werden niemals für Werbung verwendet. Wir geben deine Daten außer an die unten genannten Dienstleister nicht an Dritte weiter."
+      },
+      {
+        "h2": "4. Wo die Daten gespeichert werden (Auftragsverarbeiter)"
+      },
+      {
+        "ul": [
+          "<strong>Supabase</strong> — Authentifizierung, Datenbank und Dateispeicher für die oben genannten Daten.",
+          "<strong>Google Play</strong> — App-Vertrieb und Abo-Abrechnung.",
+          "<strong>RevenueCat</strong> — Verwaltung des Abo-Status oberhalb der Google-Play-Abrechnung.",
+          "<strong>Übersetzungsdienst</strong> — wenn du ein Wort oder einen Satz zur Übersetzung antippst, wird zuerst auf deinem Gerät übersetzt. Ist das Übersetzungsmodell für dieses Sprachpaar noch nicht fertig heruntergeladen, wird der ausgewählte Text vorübergehend an einen Übersetzungsdienst eines Drittanbieters gesendet. Es wird nur der ausgewählte Text gesendet; er wird nicht mit deinem Namen, deiner E-Mail oder deinem Konto verknüpft. Sobald das Modell geladen ist, findet die Übersetzung vollständig auf deinem Gerät statt und dieser Weg wird nicht mehr genutzt.",
+          "<strong>YouTube (Google)</strong> — das Hörmodul spielt Videos über den eingebetteten YouTube-Player ab. YouTube erhebt während der Wiedergabe Daten gemäß der eigenen Datenschutzerklärung von Google.",
+          "<strong>Google AdMob</strong> — liefert die optionalen belohnten Videoanzeigen aus und greift zur Auslieferung, Frequenzbegrenzung und Betrugsprävention auf die Werbe-ID Ihres Geräts zu, gemäß Googles eigener Datenschutzerklärung.",
+          "<strong>Cloudflare</strong> — Offline-Übersetzungsmodelle werden über einen Cloudflare Worker aus Cloudflare R2 heruntergeladen. Cloudflare sieht während des Downloads die IP-Adresse deines Geräts; Kontodaten werden nicht übertragen.",
+          "<strong>Pixabay</strong> — wenn du nach einem Bild für ein gespeichertes Wort suchst, läuft die Suche auf unserem Server, die angezeigten Bilder werden jedoch direkt von Pixabay geladen; Pixabay sieht daher die IP-Adresse deines Geräts."
+        ]
+      },
+      {
+        "h2": "5. Speicherdauer und Löschung"
+      },
+      {
+        "p": "Deine Daten werden gespeichert, solange dein Konto besteht. Du kannst dein Konto und alle zugehörigen Daten jederzeit selbst in der App löschen: <strong>Einstellungen → Konto → Konto löschen</strong>. Die Löschung wirkt sofort. Wenn du keinen Zugriff mehr auf die App hast, schreibe von der bei deinem Konto registrierten Adresse an {{emailLink}}; die Löschung erfolgt dann innerhalb von 30 Tagen. Einzelheiten auf der <a href=\"{{url:delete-account}}\">Seite zur Kontolöschung</a>."
+      },
+      {
+        "h2": "6. Sicherheit"
+      },
+      {
+        "p": "Die Daten werden über verschlüsselte Verbindungen (HTTPS/TLS) übertragen. Der serverseitige Zugriff ist durch Sicherheit auf Zeilenebene beschränkt, sodass jede Nutzerin und jeder Nutzer nur auf die eigenen Daten zugreifen kann."
+      },
+      {
+        "h2": "7. Kinder"
+      },
+      {
+        "p": "{{app}} richtet sich an ein allgemeines Publikum und erhebt nicht wissentlich Daten von Kindern unter 13 Jahren. Wenn du glaubst, dass ein Kind uns Daten übermittelt hat, kontaktiere uns und wir löschen sie. Die in der App gezeigten Anzeigen sind auf die Inhaltsfreigabe „Für alle Altersgruppen“ beschränkt."
+      },
+      {
+        "h2": "8. Diese Website"
+      },
+      {
+        "p": "Diese Website besteht aus statischen Seiten. Sie verwendet keine Cookies, keine Analysetools und kein Tracking jeglicher Art."
+      },
+      {
+        "h2": "9. Änderungen"
+      },
+      {
+        "p": "Wir können diese Erklärung aktualisieren; das oben genannte Gültigkeitsdatum ändert sich und wesentliche Änderungen werden in der App mitgeteilt."
+      }
     ]
   },
   "terms": {
@@ -169,42 +293,82 @@
     "meta": "Gültig ab: 26. Juli 2026 · App: {{app}}",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/terms.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
-      { "h2": "1. Zustimmung" },
-      { "p": "Mit dem Herunterladen oder Nutzen von {{app}} („die App\") stimmst du diesen Nutzungsbedingungen zu. Wenn du nicht zustimmst, nutze die App bitte nicht. Kontakt: {{emailLink}}" },
-      { "h2": "2. Der Dienst" },
-      { "p": "{{app}} ist eine App zum Sprachenlernen mit Lese-, Hör-, Vokabel- und Grammatikübungen. Die kostenlose Nutzung unterliegt Tageslimits. Premium hebt diese Limits auf." },
-      { "h2": "3. Konten" },
-      { "ul": [
-        "Du musst eine gültige E-Mail-Adresse angeben und deine Zugangsdaten sicher aufbewahren.",
-        "Du bist für Aktivitäten verantwortlich, die über dein Konto erfolgen.",
-        "Du kannst dein Konto jederzeit in der App (Einstellungen → Konto) oder über <a href=\"{{url:delete-account}}\">diese Seite</a> löschen."
-      ] },
-      { "h2": "4. Abonnements und Zahlung" },
-      { "ul": [
-        "Premium wird als monatliches oder jährliches Abo mit <strong>automatischer Verlängerung</strong> über Google Play angeboten.",
-        "Es gilt der zum Kaufzeitpunkt in der App angezeigte Preis. Preise können sich ändern; Änderungen gelten nur für künftige Verlängerungszeiträume und werden vorher angekündigt.",
-        "<strong>Automatische Verlängerung:</strong> Dein Abo verlängert sich am Ende jedes Zeitraums automatisch, sofern du nicht mindestens 24 Stunden vor Ende kündigst.",
-        "<strong>Kündigung:</strong> Verwalte oder kündige jederzeit unter <a href=\"{{playSubs}}\">Google Play → Abos</a>. Die Kündigung stoppt künftige Verlängerungen; Premium bleibt bis zum Ende des bezahlten Zeitraums aktiv.",
-        "<strong>Erstattungen</strong> werden von Google Play gemäß den Erstattungsrichtlinien von Google abgewickelt.",
-        "Wird eine kostenlose Testphase angeboten, verhindert eine Kündigung vor deren Ende jede Abbuchung."
-      ] },
-      { "h2": "5. Grenzen der kostenlosen Nutzung" },
-      { "p": "Kostenlose Konten erhalten eine begrenzte Anzahl täglicher „Leben\", die beim Lesen von Buchabschnitten und beim Ansehen von Hörinhalten verbraucht werden. Die Leben werden täglich zurückgesetzt. Diese Grenzen können angepasst werden, um den Dienst tragfähig zu halten; Anpassungen betreffen niemals ein aktives Premium-Abo." },
-      { "h2": "6. Inhalte und geistiges Eigentum" },
-      { "ul": [
-        "Bücher im Katalog sind entweder eigens für {{app}} erstellte Originalwerke oder gemeinfreie Werke, deren Urheberrecht abgelaufen ist.",
-        "Hörinhalte bestehen aus Videos Dritter, die über den offiziellen YouTube-Player abgespielt werden; diese Videos gehören ihren jeweiligen Eigentümern.",
-        "Du darfst App-Inhalte außerhalb der App nicht kopieren, weiterverbreiten oder weiterverkaufen.",
-        "Inhalte, die du selbst hinzufügst (eigene Bücher, Wörter, Notizen), bleiben dein Eigentum."
-      ] },
-      { "h2": "7. Zulässige Nutzung" },
-      { "p": "Du verpflichtest dich, die App nicht zurückzuentwickeln, Nutzungsgrenzen oder Zahlungsmechanismen nicht zu umgehen, keine rechtswidrigen oder rechtsverletzenden Inhalte hochzuladen und den Dienst für andere nicht zu stören." },
-      { "h2": "8. Haftungsausschluss" },
-      { "p": "Die App wird „wie besehen\" bereitgestellt. Wir garantieren weder eine unterbrechungsfreie Verfügbarkeit noch die Fehlerfreiheit der Lerninhalte. Soweit gesetzlich zulässig, haften wir nicht für indirekte Schäden aus der Nutzung der App." },
-      { "h2": "9. Änderungen" },
-      { "p": "Diese Bedingungen können aktualisiert werden. Wesentliche Änderungen werden in der App oder auf dieser Seite mit einem neuen Gültigkeitsdatum bekannt gegeben. Die weitere Nutzung nach einer Änderung gilt als Zustimmung zu den aktualisierten Bedingungen." },
-      { "h2": "10. Anwendbares Recht" },
-      { "p": "Diese Bedingungen unterliegen dem Recht der Republik Türkiye. Deine gesetzlichen Verbraucherrechte bleiben unberührt." }
+      {
+        "h2": "1. Zustimmung"
+      },
+      {
+        "p": "Mit dem Herunterladen oder Nutzen von {{app}} („die App\") stimmst du diesen Nutzungsbedingungen zu. Wenn du nicht zustimmst, nutze die App bitte nicht. Kontakt: {{emailLink}}"
+      },
+      {
+        "h2": "2. Der Dienst"
+      },
+      {
+        "p": "{{app}} ist eine App zum Sprachenlernen mit Lese-, Hör-, Vokabel- und Grammatikübungen. Die kostenlose Nutzung unterliegt Tageslimits. Premium hebt diese Limits auf."
+      },
+      {
+        "h2": "3. Konten"
+      },
+      {
+        "ul": [
+          "Du musst eine gültige E-Mail-Adresse angeben und deine Zugangsdaten sicher aufbewahren.",
+          "Du bist für Aktivitäten verantwortlich, die über dein Konto erfolgen.",
+          "Du kannst dein Konto jederzeit in der App (Einstellungen → Konto) oder über <a href=\"{{url:delete-account}}\">diese Seite</a> löschen."
+        ]
+      },
+      {
+        "h2": "4. Abonnements und Zahlung"
+      },
+      {
+        "ul": [
+          "Premium wird als monatliches oder jährliches Abo mit <strong>automatischer Verlängerung</strong> über Google Play angeboten.",
+          "Es gilt der zum Kaufzeitpunkt in der App angezeigte Preis. Preise können sich ändern; Änderungen gelten nur für künftige Verlängerungszeiträume und werden vorher angekündigt.",
+          "<strong>Automatische Verlängerung:</strong> Dein Abo verlängert sich am Ende jedes Zeitraums automatisch, sofern du nicht mindestens 24 Stunden vor Ende kündigst.",
+          "<strong>Kündigung:</strong> Verwalte oder kündige jederzeit unter <a href=\"{{playSubs}}\">Google Play → Abos</a>. Die Kündigung stoppt künftige Verlängerungen; Premium bleibt bis zum Ende des bezahlten Zeitraums aktiv.",
+          "<strong>Erstattungen</strong> werden von Google Play gemäß den Erstattungsrichtlinien von Google abgewickelt.",
+          "Wird eine kostenlose Testphase angeboten, verhindert eine Kündigung vor deren Ende jede Abbuchung."
+        ]
+      },
+      {
+        "h2": "5. Grenzen der kostenlosen Nutzung"
+      },
+      {
+        "p": "Bücher lesen, Hörinhalte ansehen, Grammatikübungen und Vokabelwiederholung sind bei kostenlosen Konten nicht begrenzt. Das einzige Limit der Gratis-Version betrifft Übersetzungen: 50 Wort- und 25 Satzübersetzungen pro Tag. Das Erreichen des Limits sperrt keine Inhalte — du kannst weiter lesen, hören und üben; nur neue Übersetzungen pausieren, bis das Kontingent um Mitternacht in deiner lokalen Zeitzone zurückgesetzt wird. Diese Limits können angepasst werden, um den Dienst tragfähig zu halten; Anpassungen wirken sich nie auf ein aktives Premium-Abo aus."
+      },
+      {
+        "h2": "6. Inhalte und geistiges Eigentum"
+      },
+      {
+        "ul": [
+          "Bücher im Katalog sind entweder eigens für {{app}} erstellte Originalwerke oder gemeinfreie Werke, deren Urheberrecht abgelaufen ist.",
+          "Hörinhalte bestehen aus Videos Dritter, die über den offiziellen YouTube-Player abgespielt werden; diese Videos gehören ihren jeweiligen Eigentümern.",
+          "Du darfst App-Inhalte außerhalb der App nicht kopieren, weiterverbreiten oder weiterverkaufen.",
+          "Inhalte, die du selbst hinzufügst (eigene Bücher, Wörter, Notizen), bleiben dein Eigentum."
+        ]
+      },
+      {
+        "h2": "7. Zulässige Nutzung"
+      },
+      {
+        "p": "Du verpflichtest dich, die App nicht zurückzuentwickeln, Nutzungsgrenzen oder Zahlungsmechanismen nicht zu umgehen, keine rechtswidrigen oder rechtsverletzenden Inhalte hochzuladen und den Dienst für andere nicht zu stören."
+      },
+      {
+        "h2": "8. Haftungsausschluss"
+      },
+      {
+        "p": "Die App wird „wie besehen\" bereitgestellt. Wir garantieren weder eine unterbrechungsfreie Verfügbarkeit noch die Fehlerfreiheit der Lerninhalte. Soweit gesetzlich zulässig, haften wir nicht für indirekte Schäden aus der Nutzung der App."
+      },
+      {
+        "h2": "9. Änderungen"
+      },
+      {
+        "p": "Diese Bedingungen können aktualisiert werden. Wesentliche Änderungen werden in der App oder auf dieser Seite mit einem neuen Gültigkeitsdatum bekannt gegeben. Die weitere Nutzung nach einer Änderung gilt als Zustimmung zu den aktualisierten Bedingungen."
+      },
+      {
+        "h2": "10. Anwendbares Recht"
+      },
+      {
+        "p": "Diese Bedingungen unterliegen dem Recht der Republik Türkiye. Deine gesetzlichen Verbraucherrechte bleiben unberührt."
+      }
     ]
   },
   "deleteAccount": {
@@ -212,47 +376,98 @@
     "meta": "App: {{app}} · <a href=\"{{url:privacy}}\">Datenschutzerklärung</a>",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/delete-account.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
-      { "h2": "1. Konto in der App löschen (empfohlen)" },
-      { "p": "Du kannst dein Konto und alle zugehörigen Daten sofort und selbst in der App löschen:" },
-      { "ol": [
-        "Öffne {{app}} und melde dich an",
-        "Gehe zu <strong>Einstellungen</strong>",
-        "Tippe im Bereich <strong>Konto</strong> auf <strong>Konto löschen</strong>",
-        "Gib das auf dem Bildschirm angezeigte Bestätigungswort ein und bestätige"
-      ] },
-      { "p": "Die Löschung wirkt sofort und kann nicht rückgängig gemacht werden." },
-      { "h2": "2. Löschung per E-Mail beantragen" },
-      { "p": "Wenn du keinen Zugriff mehr auf die App hast (Gerät verloren, Passwort vergessen, App deinstalliert), sende eine Löschanfrage an {{emailLink}} <strong>von der bei deinem {{app}}-Konto registrierten E-Mail-Adresse</strong> mit dem Betreff „Antrag auf Kontolöschung\". Dein Konto und deine Daten werden spätestens innerhalb von 30 Tagen gelöscht, und du erhältst eine Bestätigung." },
-      { "h2": "3. Was gelöscht wird" },
-      { "ul": [
-        "Profilinformationen (Anzeigename, E-Mail-Verknüpfung, Avatar)",
-        "Alle Lerndaten (gespeicherte Wörter und Sätze, Fortschritt, Sprachpaar-Daten, tägliche Lernaufzeichnungen, Statistiken)",
-        "Bilder, die du zu gespeicherten Wörtern hinzugefügt hast (werden aus dem Dateispeicher entfernt)",
-        "Der von der App geführte Abo-Datensatz (Hinweis: Um die Abrechnung zu stoppen, kündige das Abo zusätzlich unter <a href=\"{{playSubs}}\">Google Play → Abos</a> — das Löschen des Kontos kündigt kein Google-Play-Abo)",
-        "Das Authentifizierungskonto selbst"
-      ] },
-      { "p": "Die Löschung ist endgültig und unwiderruflich. Nach der Löschung werden keine weiteren Kopien deiner personenbezogenen Daten aufbewahrt. Bücher/PDFs, die du selbst hinzugefügt hast, liegen nur auf deinem Gerät und verschwinden, wenn die App-Daten gelöscht werden." }
+      {
+        "h2": "1. Konto in der App löschen (empfohlen)"
+      },
+      {
+        "p": "Du kannst dein Konto und alle zugehörigen Daten sofort und selbst in der App löschen:"
+      },
+      {
+        "ol": [
+          "Öffne {{app}} und melde dich an",
+          "Gehe zu <strong>Einstellungen</strong>",
+          "Tippe im Bereich <strong>Konto</strong> auf <strong>Konto löschen</strong>",
+          "Gib das auf dem Bildschirm angezeigte Bestätigungswort ein und bestätige"
+        ]
+      },
+      {
+        "p": "Die Löschung wirkt sofort und kann nicht rückgängig gemacht werden."
+      },
+      {
+        "h2": "2. Löschung per E-Mail beantragen"
+      },
+      {
+        "p": "Wenn du keinen Zugriff mehr auf die App hast (Gerät verloren, Passwort vergessen, App deinstalliert), sende eine Löschanfrage an {{emailLink}} <strong>von der bei deinem {{app}}-Konto registrierten E-Mail-Adresse</strong> mit dem Betreff „Antrag auf Kontolöschung\". Dein Konto und deine Daten werden spätestens innerhalb von 30 Tagen gelöscht, und du erhältst eine Bestätigung."
+      },
+      {
+        "h2": "3. Was gelöscht wird"
+      },
+      {
+        "ul": [
+          "Profilinformationen (Anzeigename, E-Mail-Verknüpfung, Avatar)",
+          "Alle Lerndaten (gespeicherte Wörter und Sätze, Fortschritt, Sprachpaar-Daten, tägliche Lernaufzeichnungen, Statistiken)",
+          "Bilder, die du zu gespeicherten Wörtern hinzugefügt hast (werden aus dem Dateispeicher entfernt)",
+          "Der von der App geführte Abo-Datensatz (Hinweis: Um die Abrechnung zu stoppen, kündige das Abo zusätzlich unter <a href=\"{{playSubs}}\">Google Play → Abos</a> — das Löschen des Kontos kündigt kein Google-Play-Abo)",
+          "Das Authentifizierungskonto selbst"
+        ]
+      },
+      {
+        "p": "Die Löschung ist endgültig und unwiderruflich. Nach der Löschung werden keine weiteren Kopien deiner personenbezogenen Daten aufbewahrt. Bücher/PDFs, die du selbst hinzugefügt hast, liegen nur auf deinem Gerät und verschwinden, wenn die App-Daten gelöscht werden."
+      }
     ]
   },
   "support": {
     "title": "Support",
     "meta": "App: {{app}}",
     "blocks": [
-      { "h2": "Kontakt" },
-      { "p": "Fragen, Fehlerberichte und Vorschläge: {{emailLink}}" },
-      { "p": "Bitte schreibe auf Englisch oder Türkisch und gib bei einem Problem dein Gerätemodell, die Android-Version und die App-Version (Einstellungen → Über) an. Antworten dauern in der Regel 1–3 Werktage." },
-      { "h2": "Ich habe Premium gekauft, aber die App zeigt weiterhin Limits" },
-      { "p": "Öffne die App und ziehe zum Aktualisieren nach unten, oder melde dich ab und wieder an — das Abo wird beim Start gegen Google Play geprüft. Wenn nach ein paar Minuten immer noch nichts freigeschaltet ist, schreibe uns mit der Google-Play-Bestellnummer und wir sehen nach." },
-      { "h2": "Wie stelle ich einen Kauf auf einem neuen Gerät wieder her?" },
-      { "p": "Melde dich mit demselben Konto an, mit dem du gekauft hast, und nutze dann <strong>Käufe wiederherstellen</strong> im Abo-Bildschirm. Das Abo ist mit deinem Google-Konto verknüpft — stelle sicher, dass du bei Google Play mit dem kaufenden Konto angemeldet bist." },
-      { "h2": "Wie kündige ich oder erhalte eine Erstattung?" },
-      { "p": "Kündige jederzeit unter <a href=\"{{playSubs}}\">Google Play → Abos</a>. Die Kündigung stoppt künftige Verlängerungen; Premium läuft bis zum Ende des bereits bezahlten Zeitraums. Erstattungen werden von Google Play gemäß Googles Richtlinie abgewickelt." },
-      { "h2": "Ich habe mein Passwort vergessen" },
-      { "p": "Tippe auf dem Anmeldebildschirm auf <strong>Passwort vergessen</strong> und gib deine E-Mail-Adresse ein. Du erhältst einen Link zum Zurücksetzen. Kommt er nicht innerhalb weniger Minuten an, prüfe den Spam-Ordner." },
-      { "h2": "Wie lösche ich mein Konto?" },
-      { "p": "In der App: <strong>Einstellungen → Konto → Konto löschen</strong>. Alle Einzelheiten, auch wie du die Löschung per E-Mail beantragst, wenn du keinen Zugriff auf die App hast, stehen auf der <a href=\"{{url:delete-account}}\">Seite zur Kontolöschung</a>." },
-      { "h2": "Inhaltsprobleme melden" },
-      { "p": "Wenn ein Buch, Video oder eine Übersetzung falsch oder unangemessen ist, schreibe uns mit dem Titel und wenn möglich einem Screenshot. So gemeldete Inhalte werden geprüft und korrigiert oder entfernt." }
+      {
+        "h2": "Kontakt"
+      },
+      {
+        "p": "Fragen, Fehlerberichte und Vorschläge: {{emailLink}}"
+      },
+      {
+        "p": "Bitte schreibe auf Englisch oder Türkisch und gib bei einem Problem dein Gerätemodell, die Android-Version und die App-Version (Einstellungen → Über) an. Antworten dauern in der Regel 1–3 Werktage."
+      },
+      {
+        "h2": "Ich habe Premium gekauft, aber die App zeigt weiterhin Limits"
+      },
+      {
+        "p": "Öffne die App und ziehe zum Aktualisieren nach unten, oder melde dich ab und wieder an — das Abo wird beim Start gegen Google Play geprüft. Wenn nach ein paar Minuten immer noch nichts freigeschaltet ist, schreibe uns mit der Google-Play-Bestellnummer und wir sehen nach."
+      },
+      {
+        "h2": "Wie stelle ich einen Kauf auf einem neuen Gerät wieder her?"
+      },
+      {
+        "p": "Melde dich mit demselben Konto an, mit dem du gekauft hast, und nutze dann <strong>Käufe wiederherstellen</strong> im Abo-Bildschirm. Das Abo ist mit deinem Google-Konto verknüpft — stelle sicher, dass du bei Google Play mit dem kaufenden Konto angemeldet bist."
+      },
+      {
+        "h2": "Wie kündige ich oder erhalte eine Erstattung?"
+      },
+      {
+        "p": "Kündige jederzeit unter <a href=\"{{playSubs}}\">Google Play → Abos</a>. Die Kündigung stoppt künftige Verlängerungen; Premium läuft bis zum Ende des bereits bezahlten Zeitraums. Erstattungen werden von Google Play gemäß Googles Richtlinie abgewickelt."
+      },
+      {
+        "h2": "Ich habe mein Passwort vergessen"
+      },
+      {
+        "p": "Tippe auf dem Anmeldebildschirm auf <strong>Passwort vergessen</strong> und gib deine E-Mail-Adresse ein. Du erhältst einen Link zum Zurücksetzen. Kommt er nicht innerhalb weniger Minuten an, prüfe den Spam-Ordner."
+      },
+      {
+        "h2": "Wie lösche ich mein Konto?"
+      },
+      {
+        "p": "In der App: <strong>Einstellungen → Konto → Konto löschen</strong>. Alle Einzelheiten, auch wie du die Löschung per E-Mail beantragst, wenn du keinen Zugriff auf die App hast, stehen auf der <a href=\"{{url:delete-account}}\">Seite zur Kontolöschung</a>."
+      },
+      {
+        "h2": "Inhaltsprobleme melden"
+      },
+      {
+        "p": "Wenn ein Buch, Video oder eine Übersetzung falsch oder unangemessen ist, schreibe uns mit dem Titel und wenn möglich einem Screenshot. So gemeldete Inhalte werden geprüft und korrigiert oder entfernt."
+      }
     ]
+  },
+  "doc": {
+    "onThisPage": "Auf dieser Seite"
   }
 }

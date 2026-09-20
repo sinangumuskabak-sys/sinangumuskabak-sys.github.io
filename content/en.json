@@ -33,7 +33,7 @@
     "headline": "Learn a language with real content",
     "subhead": "Read books, watch videos, tap any word you don't know, see its translation instantly and save it. Every saved word enters a smart spaced-repetition system — it comes back right before you'd forget it.",
     "cta": "Get it on Google Play",
-    "ctaNote": "Free to use. Premium removes the daily limits.",
+    "ctaNote": "Free to use. Premium removes the daily translation limit and all ads.",
     "demo": {
       "badge": "Try it right now",
       "hint": "Tap a highlighted word — this is exactly how LearnGuage works.",
@@ -75,6 +75,7 @@
       {
         "title": "🧠 Memorize vocabulary",
         "items": [
+          "Ready-made A1 vocabulary packs to start on day one",
           "Spaced repetition (SRS): words return exactly when you need them",
           "Learn Mode: multiple choice, writing, fill-in-the-blank",
           "Flashcards, matching and word-ordering games",
@@ -86,7 +87,17 @@
         "items": [
           "Save sentences from what you read and watch",
           "Reinforce them with sentence-ordering, quizzes and matching",
-          "Build your own grammar set from the sentences you save"
+          "Build your own grammar set from the sentences you save",
+          "Grammar topics with clear rules, A1 sentence packs and a topic test"
+        ]
+      },
+      {
+        "title": "🎯 Stay on track",
+        "items": [
+          "Daily study goal with a progress ring and streak",
+          "Weekly study minutes on your profile",
+          "Optional daily reminder",
+          "Download books to read offline"
         ]
       }
     ],
@@ -100,10 +111,10 @@
     },
     "languagesTitle": "Languages",
     "premiumTitle": "Free and Premium",
-    "premiumBody": "LearnGuage is free to use. Free accounts get a daily allowance that is spent while unlocking book sections and watching listening content.",
+    "premiumBody": "LearnGuage is free to use. Reading, listening, vocabulary and grammar practice are never limited. Free accounts get a daily translation allowance (50 words and 25 sentences); when it runs out you keep studying — only new translations pause until midnight, unless you watch an optional rewarded ad for extra translations.",
     "premiumItems": [
-      "Premium removes the daily limits on reading and listening",
-      "Full access to every book and video in the catalogue",
+      "Premium removes the daily translation limit",
+      "No ads at all — not even the optional rewarded ones",
       "The yearly plan includes a 7-day free trial",
       "Cancel any time in Google Play → Subscriptions"
     ],
@@ -112,7 +123,7 @@
     "faq": [
       {
         "q": "Is LearnGuage free?",
-        "a": "Yes. You can read, listen, and study vocabulary for free within a daily allowance. Premium removes those daily limits."
+        "a": "Yes. Every book, video, vocabulary pack and grammar topic is free. The only free-tier limit is the daily translation allowance (50 words, 25 sentences); Premium removes it and all ads."
       },
       {
         "q": "Which languages can I learn?",
@@ -136,7 +147,7 @@
       }
     ],
     "qrNote": "or scan the code",
-    "heroEyebrow": "Free · Android · No ads",
+    "heroEyebrow": "Free · Android · No forced ads",
     "featuresKicker": "Modules",
     "screensKicker": "Screenshots",
     "srsKicker": "Spaced repetition",
@@ -161,11 +172,11 @@
     "freeColTitle": "Free",
     "premiumColTitle": "Premium",
     "trialPill": "7-day free trial",
-    "premiumDesc": "Removes the daily limits and opens the whole catalogue.",
+    "premiumDesc": "Removes the daily translation limit and every ad.",
     "freeItems": [
-      "Read, listen and study every day within a daily allowance",
+      "Read, listen and practise without limits — 50 word and 25 sentence translations a day",
       "Full tap-to-translate and spaced-repetition tools",
-      "No ads, no tracking — delete your account any time"
+      "No tracking, ads only if you choose to watch one — delete your account any time"
     ],
     "faqKicker": "FAQ",
     "closingTitle": "Your first book is waiting",
@@ -181,7 +192,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "meta": "Effective date: August 31, 2026 · App: {{app}}",
+    "meta": "Effective date: September 20, 2026 · App: {{app}}",
     "blocks": [
       {
         "h2": "1. Who we are"
@@ -199,7 +210,8 @@
         "ul": [
           "Email address and password (password is stored only in hashed form by our authentication provider)",
           "Display name and chosen avatar",
-          "Guest use — when you use the app without signing up, an <strong>anonymous account record</strong> is still created with our authentication provider. It contains no email address and no password; it holds only an identifier your learning progress and daily translation allowance are attached to. If you create an account, that same record becomes your permanent account; if you do not, you can delete it from within the app."
+          "Guest use — when you use the app without signing up, an <strong>anonymous account record</strong> is still created with our authentication provider. It contains no email address and no password; it holds only an identifier your learning progress and daily translation allowance are attached to. If you create an account, that same record becomes your permanent account; if you do not, you can delete it from within the app.",
+          "Sign in with Google — if you choose Google sign-in, Google shares your account's email address, name and profile picture with us; nothing else from your Google account is accessed."
         ]
       },
       {
@@ -211,7 +223,9 @@
           "Saved words and sentences you add while studying, including optional images attached to words",
           "Study statistics (streaks, correct-answer counts, memorized word counts)",
           "Reading and listening progress (which book/video you are on and how far you got)",
-          "Reading preferences (font size, theme)"
+          "Reading preferences (font size, theme)",
+          "Daily study goal, study minutes per day and streak",
+          "Study reminder — if you turn it on, a daily reminder is scheduled locally on your device; no push-notification service is used and no data leaves your device for it"
         ]
       },
       {
@@ -248,9 +262,9 @@
           "<strong>Supabase</strong> — authentication, database, and file storage for the data listed above.",
           "<strong>Google Play</strong> — app distribution and subscription billing.",
           "<strong>RevenueCat</strong> — subscription status management on top of Google Play billing.",
-          "<strong>Translation service</strong> — when you tap a word or sentence for translation, the translation is done on your device first. If the translation model for that language pair has not finished downloading, the selected text is temporarily sent to a third-party translation service. Only the selected text is sent; it is not linked to your name, email or account. Once the model is downloaded, translation happens entirely on your device and this path is no longer used.",
+          "<strong>Translation service (MyMemory)</strong> — when you tap a word or sentence for translation, the translation is done on your device first. If the translation model for that language pair has not finished downloading, the selected text is temporarily sent to MyMemory, a translation service operated by Translated S.r.l. Only the selected text is sent; it is not linked to your name, email or account. Once the model is downloaded, translation happens entirely on your device and this path is no longer used.",
           "<strong>YouTube (Google)</strong> — the listening module plays videos through the embedded YouTube player. YouTube collects playback data under Google’s own privacy policy.",
-          "<strong>Google AdMob</strong> — serves the optional rewarded video ads and accesses your device's advertising ID for ad delivery, frequency capping and fraud prevention, under Google's own privacy policy.",
+          "<strong>Google AdMob</strong> — serves the optional rewarded video ads and accesses your device's advertising ID for ad delivery, frequency capping and fraud prevention, under Google's own privacy policy. In the EEA and UK a consent form is shown before any ad.",
           "<strong>Cloudflare</strong> — offline translation models are downloaded from Cloudflare R2 through a Cloudflare Worker. Cloudflare sees your device’s IP address during the download; no account data is sent.",
           "<strong>Pixabay</strong> — when you search for a picture to attach to a saved word, the search runs on our server, but the images shown are loaded directly from Pixabay, so Pixabay sees your device’s IP address."
         ]
@@ -289,7 +303,7 @@
   },
   "terms": {
     "title": "Terms of Use",
-    "meta": "Effective date: July 26, 2026 · App: {{app}}",
+    "meta": "Effective date: September 20, 2026 · App: {{app}}",
     "blocks": [
       {
         "h2": "1. Agreement"
@@ -301,7 +315,7 @@
         "h2": "2. The service"
       },
       {
-        "p": "{{app}} is a language-learning application offering reading, listening, vocabulary and grammar practice. Free use is subject to daily usage limits. Premium removes those limits."
+        "p": "{{app}} is a language-learning application offering reading, listening, vocabulary and grammar practice. Free use is subject to a daily translation limit. Premium removes that limit and all ads."
       },
       {
         "h2": "3. Accounts"
@@ -330,7 +344,7 @@
         "h2": "5. Free usage limits"
       },
       {
-        "p": "Reading books, watching listening content, grammar practice and vocabulary review are not limited on free accounts. The only free-tier limit is on translation: 50 word translations and 25 sentence translations per day. Reaching the limit does not lock any content — you can keep reading, listening and practising; only new translations pause until the quota resets at midnight in your local time zone. These limits may be adjusted to keep the service sustainable; adjustments never affect an active Premium subscription."
+        "p": "Reading books, watching listening content, grammar practice and vocabulary review are not limited on free accounts. The only free-tier limit is on translation: 50 word translations and 25 sentence translations per day. Reaching the limit does not lock any content — you can keep reading, listening and practising; only new translations pause until the quota resets at midnight in your local time zone. These limits may be adjusted to keep the service sustainable; adjustments never affect an active Premium subscription. Free users may also watch an optional rewarded ad to earn extra translations for the day."
       },
       {
         "h2": "6. Content and intellectual property"
@@ -424,7 +438,7 @@
         "p": "Questions, bug reports and suggestions: {{emailLink}}"
       },
       {
-        "p": "Please write in English or Turkish, and include your device model, Android version and the app version (Settings → About) if you are reporting a problem. Replies usually take 1–3 business days."
+        "p": "Please write in English or Turkish, and include your device model, Android version and the app version (shown on the app's Google Play page under “About this app”) if you are reporting a problem. Replies usually take 1–3 business days."
       },
       {
         "h2": "I bought Premium but the app still shows limits"

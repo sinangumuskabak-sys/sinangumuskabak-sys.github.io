@@ -33,7 +33,7 @@
     "headline": "Aprende un idioma con contenido real",
     "subhead": "Lee libros, mira vídeos, toca cualquier palabra que no conozcas, ve su traducción al instante y guárdala. Cada palabra guardada entra en un sistema inteligente de repetición espaciada: vuelve a aparecer justo antes de que la olvides.",
     "cta": "Descárgala en Google Play",
-    "ctaNote": "Uso gratuito. Premium elimina los límites diarios.",
+    "ctaNote": "Uso gratuito. Premium elimina el límite diario de traducción y todos los anuncios.",
     "demo": {
       "badge": "Pruébalo ahora mismo",
       "hint": "Toca una palabra resaltada — así funciona exactamente LearnGuage.",
@@ -75,6 +75,7 @@
       {
         "title": "🧠 Memoriza vocabulario",
         "items": [
+          "Paquetes de vocabulario A1 listos para empezar desde el primer día",
           "Repetición espaciada (SRS): las palabras vuelven justo cuando las necesitas",
           "Modo Aprender: opción múltiple, escritura, completar huecos",
           "Tarjetas de memoria, juegos de emparejar y de ordenar palabras",
@@ -86,7 +87,17 @@
         "items": [
           "Guarda frases de lo que lees y ves",
           "Refuérzalas ordenando frases, con cuestionarios y emparejamientos",
-          "Crea tu propio conjunto de gramática con las frases que guardas"
+          "Crea tu propio conjunto de gramática con las frases que guardas",
+          "Temas de gramática con reglas claras, paquetes de frases A1 y un test por tema"
+        ]
+      },
+      {
+        "title": "🎯 Mantén el ritmo",
+        "items": [
+          "Objetivo diario de estudio con anillo de progreso y racha",
+          "Minutos de estudio semanales en tu perfil",
+          "Recordatorio diario opcional",
+          "Descarga libros para leer sin conexión"
         ]
       }
     ],
@@ -100,10 +111,10 @@
     },
     "languagesTitle": "Idiomas",
     "premiumTitle": "Gratis y Premium",
-    "premiumBody": "LearnGuage es gratis. Las cuentas gratuitas reciben una cuota diaria que se consume al desbloquear secciones de libros y ver contenido de escucha.",
+    "premiumBody": "LearnGuage es gratis. Leer, escuchar y practicar vocabulario y gramática nunca tiene límites. Las cuentas gratuitas reciben una cuota diaria de traducción (50 palabras y 25 frases); cuando se agota sigues estudiando: solo las nuevas traducciones se pausan hasta medianoche, salvo que veas un anuncio bonificado opcional para obtener traducciones extra.",
     "premiumItems": [
-      "Premium elimina los límites diarios de lectura y escucha",
-      "Acceso completo a todos los libros y vídeos del catálogo",
+      "Premium elimina el límite diario de traducción",
+      "Sin anuncios de ningún tipo, ni siquiera los bonificados opcionales",
       "El plan anual incluye 7 días de prueba gratis",
       "Cancela cuando quieras en Google Play → Suscripciones"
     ],
@@ -112,7 +123,7 @@
     "faq": [
       {
         "q": "¿LearnGuage es gratis?",
-        "a": "Sí. Puedes leer, escuchar y estudiar vocabulario gratis dentro de una cuota diaria. Premium elimina esos límites diarios."
+        "a": "Sí. Todos los libros, vídeos, paquetes de vocabulario y temas de gramática son gratis. El único límite de la cuenta gratuita es la cuota diaria de traducción (50 palabras, 25 frases); Premium la elimina junto con todos los anuncios."
       },
       {
         "q": "¿Qué idiomas puedo aprender?",
@@ -136,7 +147,7 @@
       }
     ],
     "qrNote": "o escanea el código",
-    "heroEyebrow": "Gratis · Android · Sin anuncios",
+    "heroEyebrow": "Gratis · Android · Sin anuncios forzados",
     "featuresKicker": "Módulos",
     "screensKicker": "Capturas",
     "srsKicker": "Repetición espaciada",
@@ -161,11 +172,11 @@
     "freeColTitle": "Gratis",
     "premiumColTitle": "Premium",
     "trialPill": "Prueba gratis de 7 días",
-    "premiumDesc": "Elimina los límites diarios y abre todo el catálogo.",
+    "premiumDesc": "Elimina el límite diario de traducción y todos los anuncios.",
     "freeItems": [
-      "Lee, escucha y estudia cada día dentro de tu cuota diaria",
+      "Lee, escucha y practica sin límites: 50 traducciones de palabras y 25 de frases al día",
       "Herramientas completas de traducción al tocar y de repetición espaciada",
-      "Sin anuncios ni rastreo: elimina tu cuenta cuando quieras"
+      "Sin rastreo, anuncios solo si eliges ver uno: elimina tu cuenta cuando quieras"
     ],
     "faqKicker": "Preguntas",
     "closingTitle": "Tu primer libro te espera",
@@ -181,7 +192,7 @@
   },
   "privacy": {
     "title": "Política de Privacidad",
-    "meta": "Fecha de entrada en vigor: 31 de agosto de 2026 · Aplicación: {{app}}",
+    "meta": "Fecha de entrada en vigor: 20 de septiembre de 2026 · Aplicación: {{app}}",
     "translationNotice": "Esta traducción se ofrece a título informativo. En caso de discrepancia, prevalece la <a href=\"/privacy.html\">versión en inglés</a>.",
     "blocks": [
       {
@@ -200,7 +211,8 @@
         "ul": [
           "Dirección de correo electrónico y contraseña (la contraseña se almacena únicamente cifrada mediante hash por nuestro proveedor de autenticación)",
           "Nombre visible y avatar elegido",
-          "Uso como invitado: cuando usas la aplicación sin registrarte, también se crea un <strong>registro de cuenta anónima</strong> en nuestro proveedor de autenticación. No contiene dirección de correo ni contraseña; solo guarda un identificador al que se vinculan tu progreso de aprendizaje y tu cuota diaria de traducción. Si creas una cuenta, ese mismo registro se convierte en tu cuenta permanente; si no lo haces, puedes eliminarlo desde la aplicación."
+          "Uso como invitado: cuando usas la aplicación sin registrarte, también se crea un <strong>registro de cuenta anónima</strong> en nuestro proveedor de autenticación. No contiene dirección de correo ni contraseña; solo guarda un identificador al que se vinculan tu progreso de aprendizaje y tu cuota diaria de traducción. Si creas una cuenta, ese mismo registro se convierte en tu cuenta permanente; si no lo haces, puedes eliminarlo desde la aplicación.",
+          "Inicio de sesión con Google: si eliges iniciar sesión con Google, Google nos comparte la dirección de correo, el nombre y la foto de perfil de tu cuenta; no se accede a nada más de tu cuenta de Google."
         ]
       },
       {
@@ -212,7 +224,9 @@
           "Palabras y frases que guardas mientras estudias, incluidas las imágenes opcionales adjuntas a las palabras",
           "Estadísticas de estudio (rachas, número de respuestas correctas, número de palabras memorizadas)",
           "Progreso de lectura y escucha (en qué libro/vídeo estás y hasta dónde has llegado)",
-          "Preferencias de lectura (tamaño de letra, tema)"
+          "Preferencias de lectura (tamaño de letra, tema)",
+          "Objetivo diario de estudio, minutos de estudio por día y racha",
+          "Recordatorio de estudio: si lo activas, se programa un recordatorio diario localmente en tu dispositivo; no se usa ningún servicio de notificaciones push y ningún dato sale de tu dispositivo por ello"
         ]
       },
       {
@@ -249,9 +263,9 @@
           "<strong>Supabase</strong>: autenticación, base de datos y almacenamiento de archivos para los datos indicados arriba.",
           "<strong>Google Play</strong>: distribución de la aplicación y facturación de suscripciones.",
           "<strong>RevenueCat</strong>: gestión del estado de la suscripción sobre la facturación de Google Play.",
-          "<strong>Servicio de traducción</strong> — cuando tocas una palabra o frase para traducirla, la traducción se hace primero en tu dispositivo. Si el modelo de traducción para ese par de idiomas aún no ha terminado de descargarse, el texto seleccionado se envía temporalmente a un servicio de traducción de terceros. Solo se envía el texto seleccionado; no se vincula a tu nombre, correo ni cuenta. Una vez descargado el modelo, la traducción se realiza por completo en tu dispositivo y esta vía deja de usarse.",
+          "<strong>Servicio de traducción (MyMemory)</strong> — cuando tocas una palabra o frase para traducirla, la traducción se hace primero en tu dispositivo. Si el modelo de traducción para ese par de idiomas aún no ha terminado de descargarse, el texto seleccionado se envía temporalmente a MyMemory, un servicio de traducción operado por Translated S.r.l. Solo se envía el texto seleccionado; no se vincula a tu nombre, correo ni cuenta. Una vez descargado el modelo, la traducción se realiza por completo en tu dispositivo y esta vía deja de usarse.",
           "<strong>YouTube (Google)</strong> — el módulo de escucha reproduce vídeos mediante el reproductor de YouTube integrado. YouTube recopila datos de reproducción según su propia política de privacidad.",
-          "<strong>Google AdMob</strong> — muestra los anuncios de vídeo bonificados opcionales y accede al identificador de publicidad de tu dispositivo para la entrega, la limitación de frecuencia y la prevención del fraude, conforme a la política de privacidad de Google.",
+          "<strong>Google AdMob</strong> — muestra los anuncios de vídeo bonificados opcionales y accede al identificador de publicidad de tu dispositivo para la entrega, la limitación de frecuencia y la prevención del fraude, conforme a la política de privacidad de Google. En el EEE y el Reino Unido se muestra un formulario de consentimiento antes de cualquier anuncio.",
           "<strong>Cloudflare</strong> — los modelos de traducción sin conexión se descargan de Cloudflare R2 a través de un Cloudflare Worker. Cloudflare ve la dirección IP de tu dispositivo durante la descarga; no se envían datos de la cuenta.",
           "<strong>Pixabay</strong> — cuando buscas una imagen para adjuntarla a una palabra guardada, la búsqueda se ejecuta en nuestro servidor, pero las imágenes se cargan directamente desde Pixabay, por lo que Pixabay ve la dirección IP de tu dispositivo."
         ]
@@ -290,7 +304,7 @@
   },
   "terms": {
     "title": "Condiciones de Uso",
-    "meta": "Fecha de entrada en vigor: 26 de julio de 2026 · Aplicación: {{app}}",
+    "meta": "Fecha de entrada en vigor: 20 de septiembre de 2026 · Aplicación: {{app}}",
     "translationNotice": "Esta traducción se ofrece a título informativo. En caso de discrepancia, prevalece la <a href=\"/terms.html\">versión en inglés</a>.",
     "blocks": [
       {
@@ -303,7 +317,7 @@
         "h2": "2. El servicio"
       },
       {
-        "p": "{{app}} es una aplicación de aprendizaje de idiomas que ofrece práctica de lectura, escucha, vocabulario y gramática. El uso gratuito está sujeto a límites diarios. Premium elimina esos límites."
+        "p": "{{app}} es una aplicación de aprendizaje de idiomas con práctica de lectura, escucha, vocabulario y gramática. El uso gratuito está sujeto a un límite diario de traducción. Premium elimina ese límite y todos los anuncios."
       },
       {
         "h2": "3. Cuentas"
@@ -332,7 +346,7 @@
         "h2": "5. Límites de uso gratuito"
       },
       {
-        "p": "Leer libros, ver contenido de escucha, practicar gramática y repasar vocabulario no tienen límite en las cuentas gratuitas. El único límite del plan gratuito está en la traducción: 50 traducciones de palabras y 25 de frases al día. Alcanzar el límite no bloquea ningún contenido: puedes seguir leyendo, escuchando y practicando; solo se pausan las traducciones nuevas hasta que la cuota se renueva a medianoche en tu zona horaria. Estos límites pueden ajustarse para mantener el servicio sostenible; los ajustes nunca afectan a una suscripción Premium activa."
+        "p": "Leer libros, ver contenido de escucha, practicar gramática y repasar vocabulario no tienen límite en las cuentas gratuitas. El único límite del plan gratuito está en la traducción: 50 traducciones de palabras y 25 de frases al día. Alcanzar el límite no bloquea ningún contenido: puedes seguir leyendo, escuchando y practicando; solo se pausan las traducciones nuevas hasta que la cuota se renueva a medianoche en tu zona horaria. Estos límites pueden ajustarse para mantener el servicio sostenible; los ajustes nunca afectan a una suscripción Premium activa. Los usuarios gratuitos también pueden ver un anuncio bonificado opcional para obtener traducciones extra ese día."
       },
       {
         "h2": "6. Contenido y propiedad intelectual"
@@ -427,7 +441,7 @@
         "p": "Preguntas, informes de errores y sugerencias: {{emailLink}}"
       },
       {
-        "p": "Escríbenos en inglés o turco e incluye el modelo de tu dispositivo, la versión de Android y la versión de la aplicación (Ajustes → Acerca de) si informas de un problema. Solemos responder en 1–3 días laborables."
+        "p": "Escríbenos en inglés o turco e incluye el modelo de tu dispositivo, la versión de Android y la versión de la aplicación (aparece en la página de la app en Google Play, en “Acerca de esta app”) si informas de un problema. Solemos responder en 1–3 días laborables."
       },
       {
         "h2": "He comprado Premium pero la aplicación sigue mostrando límites"

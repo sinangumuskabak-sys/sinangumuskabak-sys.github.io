@@ -34,7 +34,7 @@
 </header>
 <main id="main" class="prose">
 <h1>Datenschutzerklärung</h1>
-<p class="muted">Gültig ab: 31. August 2026 · App: LearnGuage</p>
+<p class="muted">Gültig ab: 20. September 2026 · App: LearnGuage</p>
 <p class="translation-notice">Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href="/privacy.html">englische Fassung</a> maßgeblich.</p>
 <h2>1. Wer wir sind</h2>
 <p>LearnGuage ist eine mobile App zum Sprachenlernen. Diese Erklärung beschreibt, welche Daten die App erhebt, warum, und wie du sie kontrollieren kannst. Kontakt: <a href="mailto:learngua@learnguage.app">learngua@learnguage.app</a></p>
@@ -44,6 +44,7 @@
   <li>E-Mail-Adresse und Passwort (das Passwort wird von unserem Authentifizierungsanbieter ausschließlich als Hash gespeichert)</li>
   <li>Anzeigename und gewählter Avatar</li>
   <li>Gastnutzung — wenn Sie die App ohne Registrierung nutzen, wird bei unserem Authentifizierungsanbieter dennoch ein <strong>anonymer Kontodatensatz</strong> angelegt. Er enthält weder E-Mail-Adresse noch Passwort; er speichert nur eine Kennung, an die Ihr Lernfortschritt und Ihr tägliches Übersetzungskontingent gebunden sind. Wenn Sie ein Konto erstellen, wird aus diesem Datensatz Ihr dauerhaftes Konto; andernfalls können Sie ihn in der App löschen.</li>
+  <li>Anmeldung mit Google — wenn Sie die Google-Anmeldung wählen, übermittelt uns Google die E-Mail-Adresse, den Namen und das Profilbild Ihres Kontos; auf nichts anderes aus Ihrem Google-Konto wird zugegriffen.</li>
 </ul>
 <h3>Lerndaten</h3>
 <ul>
@@ -52,6 +53,8 @@
   <li>Lernstatistiken (Serien, Anzahl richtiger Antworten, Anzahl gelernter Wörter)</li>
   <li>Lese- und Hörfortschritt (welches Buch/Video und wie weit du gekommen bist)</li>
   <li>Leseeinstellungen (Schriftgröße, Design)</li>
+  <li>Tägliches Lernziel, Lernminuten pro Tag und Serie</li>
+  <li>Lernerinnerung — wenn Sie sie einschalten, wird eine tägliche Erinnerung lokal auf Ihrem Gerät geplant; es wird kein Push-Benachrichtigungsdienst genutzt und dafür verlassen keine Daten Ihr Gerät</li>
 </ul>
 <h3>Werbedaten</h3>
 <ul>
@@ -72,9 +75,9 @@
   <li><strong>Supabase</strong> — Authentifizierung, Datenbank und Dateispeicher für die oben genannten Daten.</li>
   <li><strong>Google Play</strong> — App-Vertrieb und Abo-Abrechnung.</li>
   <li><strong>RevenueCat</strong> — Verwaltung des Abo-Status oberhalb der Google-Play-Abrechnung.</li>
-  <li><strong>Übersetzungsdienst</strong> — wenn du ein Wort oder einen Satz zur Übersetzung antippst, wird zuerst auf deinem Gerät übersetzt. Ist das Übersetzungsmodell für dieses Sprachpaar noch nicht fertig heruntergeladen, wird der ausgewählte Text vorübergehend an einen Übersetzungsdienst eines Drittanbieters gesendet. Es wird nur der ausgewählte Text gesendet; er wird nicht mit deinem Namen, deiner E-Mail oder deinem Konto verknüpft. Sobald das Modell geladen ist, findet die Übersetzung vollständig auf deinem Gerät statt und dieser Weg wird nicht mehr genutzt.</li>
+  <li><strong>Übersetzungsdienst (MyMemory)</strong> — wenn du ein Wort oder einen Satz zur Übersetzung antippst, wird zuerst auf deinem Gerät übersetzt. Ist das Übersetzungsmodell für dieses Sprachpaar noch nicht fertig heruntergeladen, wird der ausgewählte Text vorübergehend an MyMemory gesendet, einen von Translated S.r.l. betriebenen Übersetzungsdienst. Es wird nur der ausgewählte Text gesendet; er wird nicht mit deinem Namen, deiner E-Mail oder deinem Konto verknüpft. Sobald das Modell geladen ist, findet die Übersetzung vollständig auf deinem Gerät statt und dieser Weg wird nicht mehr genutzt.</li>
   <li><strong>YouTube (Google)</strong> — das Hörmodul spielt Videos über den eingebetteten YouTube-Player ab. YouTube erhebt während der Wiedergabe Daten gemäß der eigenen Datenschutzerklärung von Google.</li>
-  <li><strong>Google AdMob</strong> — liefert die optionalen belohnten Videoanzeigen aus und greift zur Auslieferung, Frequenzbegrenzung und Betrugsprävention auf die Werbe-ID Ihres Geräts zu, gemäß Googles eigener Datenschutzerklärung.</li>
+  <li><strong>Google AdMob</strong> — liefert die optionalen belohnten Videoanzeigen aus und greift zur Auslieferung, Frequenzbegrenzung und Betrugsprävention auf die Werbe-ID Ihres Geräts zu, gemäß Googles eigener Datenschutzerklärung. Im EWR und im Vereinigten Königreich wird vor jeder Anzeige ein Einwilligungsformular angezeigt.</li>
   <li><strong>Cloudflare</strong> — Offline-Übersetzungsmodelle werden über einen Cloudflare Worker aus Cloudflare R2 heruntergeladen. Cloudflare sieht während des Downloads die IP-Adresse deines Geräts; Kontodaten werden nicht übertragen.</li>
   <li><strong>Pixabay</strong> — wenn du nach einem Bild für ein gespeichertes Wort suchst, läuft die Suche auf unserem Server, die angezeigten Bilder werden jedoch direkt von Pixabay geladen; Pixabay sieht daher die IP-Adresse deines Geräts.</li>
 </ul>

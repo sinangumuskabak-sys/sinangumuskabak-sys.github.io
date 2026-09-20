@@ -33,7 +33,7 @@
     "headline": "Gerçek içerikle dil öğren",
     "subhead": "Kitap oku, video izle, anlamadığın kelimeye dokun, anında çevirisini gör ve kaydet. Eklediğin her kelime akıllı tekrar sistemine girer — tam unutmak üzereyken karşına çıkar.",
     "cta": "Google Play'den indir",
-    "ctaNote": "Ücretsiz kullanılır. Premium günlük sınırları kaldırır.",
+    "ctaNote": "Ücretsiz kullanılır. Premium günlük çeviri sınırını ve tüm reklamları kaldırır.",
     "demo": {
       "badge": "Hemen dene",
       "hint": "Vurgulu kelimeye dokun — LearnGuage tam böyle çalışır.",
@@ -75,6 +75,7 @@
       {
         "title": "🧠 Kelime ezberle",
         "items": [
+          "İlk günden başlamak için hazır A1 kelime paketleri",
           "Aralıklı tekrar (SRS): kelimeler tam zamanında karşına çıkar",
           "Öğren Modu: çoktan seçmeli, yazma, boşluk doldurma",
           "Kelime kartları, eşleştirme ve kelime dizme oyunları",
@@ -86,7 +87,17 @@
         "items": [
           "Okuduğun ve izlediğin içerikten cümle kaydet",
           "Cümle dizme, quiz ve eşleştirme ile pekiştir",
-          "Kaydettiğin cümlelerle kendi gramer setini oluştur"
+          "Kaydettiğin cümlelerle kendi gramer setini oluştur",
+          "Açık kurallı gramer konuları, A1 cümle paketleri ve konu testi"
+        ]
+      },
+      {
+        "title": "🎯 Düzenli kal",
+        "items": [
+          "İlerleme halkası ve seriyle günlük çalışma hedefi",
+          "Profilde haftalık çalışma dakikaları",
+          "İsteğe bağlı günlük hatırlatma",
+          "Kitapları indirip çevrimdışı oku"
         ]
       }
     ],
@@ -100,10 +111,10 @@
     },
     "languagesTitle": "Diller",
     "premiumTitle": "Ücretsiz ve Premium",
-    "premiumBody": "LearnGuage ücretsiz kullanılır. Ücretsiz hesaplar, kitap bölümlerini açarken ve dinleme içeriği izlerken harcanan günlük bir hak alır.",
+    "premiumBody": "LearnGuage ücretsiz kullanılır. Okuma, dinleme, kelime ve gramer çalışması hiçbir zaman sınırlanmaz. Ücretsiz hesaplar günlük bir çeviri hakkı alır (50 kelime ve 25 cümle); hak bitince çalışmaya devam edersin — yalnızca yeni çeviriler gece yarısına kadar durur; istersen ödüllü bir reklam izleyerek ek çeviri kazanabilirsin.",
     "premiumItems": [
-      "Premium, okuma ve dinlemedeki günlük sınırları kaldırır",
-      "Katalogdaki tüm kitap ve videolara tam erişim",
+      "Premium günlük çeviri sınırını kaldırır",
+      "Hiç reklam yok — isteğe bağlı ödüllü reklamlar bile",
       "Yıllık planda 7 gün ücretsiz deneme",
       "Google Play → Abonelikler'den istediğin zaman iptal"
     ],
@@ -112,7 +123,7 @@
     "faq": [
       {
         "q": "LearnGuage ücretsiz mi?",
-        "a": "Evet. Günlük bir hak dahilinde ücretsiz okuyabilir, dinleyebilir ve kelime çalışabilirsin. Premium bu günlük sınırları kaldırır."
+        "a": "Evet. Tüm kitaplar, videolar, kelime paketleri ve gramer konuları ücretsiz. Ücretsiz hesaptaki tek sınır günlük çeviri hakkı (50 kelime, 25 cümle); Premium bu sınırı ve tüm reklamları kaldırır."
       },
       {
         "q": "Hangi dilleri öğrenebilirim?",
@@ -136,7 +147,7 @@
       }
     ],
     "qrNote": "ya da QR kodu okut",
-    "heroEyebrow": "Ücretsiz · Android · Reklamsız",
+    "heroEyebrow": "Ücretsiz · Android · Zorunlu reklam yok",
     "featuresKicker": "Modüller",
     "screensKicker": "Ekran görüntüleri",
     "srsKicker": "Aralıklı tekrar",
@@ -161,11 +172,11 @@
     "freeColTitle": "Ücretsiz",
     "premiumColTitle": "Premium",
     "trialPill": "7 gün ücretsiz deneme",
-    "premiumDesc": "Günlük sınırları kaldırır, kataloğun tamamını açar.",
+    "premiumDesc": "Günlük çeviri sınırını ve tüm reklamları kaldırır.",
     "freeItems": [
-      "Günlük hak dahilinde her gün oku, dinle ve çalış",
+      "Sınırsız oku, dinle ve alıştırma yap — günde 50 kelime ve 25 cümle çevirisi",
       "Dokun-çevir ve aralıklı tekrar araçlarının tamamı",
-      "Reklamsız, takipsiz — hesabını dilediğin an sil"
+      "Takip yok, reklam yalnızca sen izlemek istersen — hesabını dilediğin an sil"
     ],
     "faqKicker": "SSS",
     "closingTitle": "İlk kitabın seni bekliyor",
@@ -181,7 +192,7 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "meta": "Yürürlük tarihi: 31 Ağustos 2026 · Uygulama: {{app}}",
+    "meta": "Yürürlük tarihi: 20 Eylül 2026 · Uygulama: {{app}}",
     "blocks": [
       {
         "h2": "1. Biz kimiz"
@@ -199,7 +210,8 @@
         "ul": [
           "E-posta adresi ve şifre (şifre, kimlik doğrulama sağlayıcımızda yalnızca karma/hash olarak saklanır)",
           "Görünen ad ve seçilen avatar",
-          "Misafir kullanım — uygulamayı kayıt olmadan kullandığınızda da kimlik doğrulama sağlayıcımızda <strong>anonim bir hesap kaydı</strong> oluşturulur. Bu kayıtta e-posta adresi ve şifre bulunmaz; yalnızca öğrenme ilerlemenizin ve günlük çeviri hakkınızın bağlanacağı bir kimlik numarası tutulur. Hesap oluşturursanız aynı kayıt kalıcı hesabınıza dönüşür; oluşturmazsanız uygulama içinden silebilirsiniz."
+          "Misafir kullanım — uygulamayı kayıt olmadan kullandığınızda da kimlik doğrulama sağlayıcımızda <strong>anonim bir hesap kaydı</strong> oluşturulur. Bu kayıtta e-posta adresi ve şifre bulunmaz; yalnızca öğrenme ilerlemenizin ve günlük çeviri hakkınızın bağlanacağı bir kimlik numarası tutulur. Hesap oluşturursanız aynı kayıt kalıcı hesabınıza dönüşür; oluşturmazsanız uygulama içinden silebilirsiniz.",
+          "Google ile giriş — Google ile giriş yapmayı seçerseniz Google, hesabınızın e-posta adresini, adını ve profil resmini bizimle paylaşır; Google hesabınızdan başka hiçbir veriye erişilmez."
         ]
       },
       {
@@ -211,7 +223,9 @@
           "Çalışırken kaydettiğiniz kelime ve cümleler, kelimelere isteğe bağlı eklediğiniz görseller",
           "Çalışma istatistikleri (seri/streak, doğru cevap sayısı, ezberlenen kelime sayısı)",
           "Okuma ve dinleme ilerlemesi (hangi kitap/videoda ne kadar ilerlediğiniz)",
-          "Okuma tercihleri (yazı boyutu, tema)"
+          "Okuma tercihleri (yazı boyutu, tema)",
+          "Günlük çalışma hedefi, günlük çalışma dakikaları ve seri",
+          "Çalışma hatırlatması — açarsanız günlük hatırlatma cihazınızda yerel olarak planlanır; push bildirim hizmeti kullanılmaz ve bunun için cihazınızdan hiçbir veri çıkmaz"
         ]
       },
       {
@@ -248,9 +262,9 @@
           "<strong>Supabase</strong> — kimlik doğrulama, veritabanı ve dosya depolama.",
           "<strong>Google Play</strong> — uygulama dağıtımı ve abonelik faturalandırması.",
           "<strong>RevenueCat</strong> — Google Play faturalandırması üzerinde abonelik durumu yönetimi.",
-          "<strong>Çeviri hizmeti</strong> — bir kelimeye veya cümleye çeviri için dokunduğunuzda çeviri önce cihazınızda yapılır. O dil çifti için çeviri modeli henüz inmediyse, seçtiğiniz metin geçici olarak üçüncü taraf bir çeviri hizmetine gönderilir. Yalnızca seçilen metin gönderilir; adınız, e-postanız veya hesabınızla ilişkilendirilmez. Model indikten sonra çeviriler tamamen cihazınızda yapılır ve bu yol kullanılmaz.",
+          "<strong>Çeviri hizmeti (MyMemory)</strong> — bir kelimeye veya cümleye çeviri için dokunduğunuzda çeviri önce cihazınızda yapılır. O dil çifti için çeviri modeli henüz inmediyse, seçtiğiniz metin geçici olarak Translated S.r.l. tarafından işletilen MyMemory çeviri hizmetine gönderilir. Yalnızca seçilen metin gönderilir; adınız, e-postanız veya hesabınızla ilişkilendirilmez. Model indikten sonra çeviriler tamamen cihazınızda yapılır ve bu yol kullanılmaz.",
           "<strong>YouTube (Google)</strong> — dinleme modülü videoları gömülü YouTube oynatıcıyla oynatır. YouTube, oynatma sırasında kendi gizlilik politikası kapsamında veri toplar.",
-          "<strong>Google AdMob</strong> — isteğe bağlı ödüllü video reklamları gösterir; reklam sunumu, gösterim sınırlaması ve sahtekârlık önleme için cihazınızın reklam kimliğine erişir. Google'ın kendi gizlilik politikası geçerlidir.",
+          "<strong>Google AdMob</strong> — isteğe bağlı ödüllü video reklamları gösterir; reklam sunumu, gösterim sınırlaması ve sahtekârlık önleme için cihazınızın reklam kimliğine erişir. Google'ın kendi gizlilik politikası geçerlidir. AEA ve Birleşik Krallık'ta reklam gösterilmeden önce bir onay formu sunulur.",
           "<strong>Cloudflare</strong> — çevrimdışı çeviri modelleri, bir Cloudflare Worker üzerinden Cloudflare R2’den indirilir. İndirme sırasında Cloudflare cihazınızın IP adresini görür; hesap verisi gönderilmez.",
           "<strong>Pixabay</strong> — kaydettiğiniz bir kelimeye resim eklemek için arama yaptığınızda arama sunucumuzda çalışır, ancak gösterilen görseller doğrudan Pixabay’den yüklenir; bu yüzden Pixabay cihazınızın IP adresini görür."
         ]
@@ -289,7 +303,7 @@
   },
   "terms": {
     "title": "Kullanım Koşulları",
-    "meta": "Yürürlük tarihi: 26 Temmuz 2026 · Uygulama: {{app}}",
+    "meta": "Yürürlük tarihi: 20 Eylül 2026 · Uygulama: {{app}}",
     "blocks": [
       {
         "h2": "1. Sözleşme"
@@ -301,7 +315,7 @@
         "h2": "2. Hizmet"
       },
       {
-        "p": "{{app}}; okuma, dinleme, kelime ve gramer çalışması sunan bir dil öğrenme uygulamasıdır. Ücretsiz kullanım günlük sınırlara tabidir. Premium bu sınırları kaldırır."
+        "p": "{{app}}, okuma, dinleme, kelime ve gramer pratiği sunan bir dil öğrenme uygulamasıdır. Ücretsiz kullanım günlük bir çeviri sınırına tabidir. Premium bu sınırı ve tüm reklamları kaldırır."
       },
       {
         "h2": "3. Hesaplar"
@@ -330,7 +344,7 @@
         "h2": "5. Ücretsiz kullanım sınırları"
       },
       {
-        "p": "Ücretsiz hesaplarda kitap okuma, dinleme içeriği izleme, gramer çalışması ve kelime tekrarı sınırlı değildir. Ücretsiz katmanın tek sınırı çeviridedir: günde 50 kelime ve 25 cümle çevirisi. Sınıra ulaşmak hiçbir içeriği kilitlemez — okumaya, dinlemeye ve çalışmaya devam edebilirsiniz; yalnızca yeni çeviriler, kota yerel saatinizle gece yarısı yenilenene kadar durur. Bu sınırlar hizmetin sürdürülebilirliği için ayarlanabilir; değişiklikler etkin bir Premium aboneliği asla etkilemez."
+        "p": "Ücretsiz hesaplarda kitap okuma, dinleme içeriği izleme, gramer çalışması ve kelime tekrarı sınırlı değildir. Ücretsiz katmanın tek sınırı çeviridedir: günde 50 kelime ve 25 cümle çevirisi. Sınıra ulaşmak hiçbir içeriği kilitlemez — okumaya, dinlemeye ve çalışmaya devam edebilirsiniz; yalnızca yeni çeviriler, kota yerel saatinizle gece yarısı yenilenene kadar durur. Bu sınırlar hizmetin sürdürülebilirliği için ayarlanabilir; değişiklikler etkin bir Premium aboneliği asla etkilemez. Ücretsiz kullanıcılar isteğe bağlı bir ödüllü reklam izleyerek o gün için ek çeviri hakkı da kazanabilir."
       },
       {
         "h2": "6. İçerik ve fikri mülkiyet"
@@ -424,7 +438,7 @@
         "p": "Soru, hata bildirimi ve öneriler: {{emailLink}}"
       },
       {
-        "p": "Bir sorun bildiriyorsan cihaz modelini, Android sürümünü ve uygulama sürümünü (Ayarlar → Hakkında) eklersen daha hızlı çözeriz. Yanıtlar genellikle 1–3 iş günü içinde gelir."
+        "p": "Bir sorun bildiriyorsan cihaz modelini, Android sürümünü ve uygulama sürümünü (uygulamanın Google Play sayfasında “Bu uygulama hakkında” altında görünür) eklersen daha hızlı çözeriz. Yanıtlar genellikle 1–3 iş günü içinde gelir."
       },
       {
         "h2": "Premium aldım ama uygulama hâlâ sınır gösteriyor"

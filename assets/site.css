@@ -224,7 +224,7 @@ section + section { margin-top: 68px; }
     background: linear-gradient(160deg, var(--bg-soft), var(--bg-elev));
     border-radius: 26px;
     padding: 7px;
-    aspect-ratio: 540 / 1075;   /* kirpilmis gorsel orani — kirpma olmasin */
+    aspect-ratio: 9 / 16;   /* Play tanitim gorseli orani (1080x1920) — kirpma olmasin */
     display: flex;
     overflow: hidden;
     box-shadow: var(--shadow-md);

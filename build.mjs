@@ -170,7 +170,7 @@ ${f.items.map((i) => `      <li>${fill(i)}</li>`).join('\n')}
         .map((s, i) => {
             const cap = h.screens[s] ?? '';
             return `  <figure class="screen">
-    <div class="phone"><img src="/assets/screens/${s}.jpg" alt="${esc(cap)}" loading="lazy" width="270" height="538"></div>
+    <div class="phone"><img src="/assets/screens/${localeCode}/${s}.jpg" alt="${esc(cap)}" loading="lazy" width="270" height="480"></div>
     <figcaption>${esc(cap)}</figcaption>
   </figure>`;
         })
@@ -351,7 +351,8 @@ for (const f of critical) {
 }
 
 console.log(`${written.length} sayfa uretildi (${locales.length} dil x ${cfg.pages.length} sayfa + 404).`);
-const missingScreens = cfg.screens.filter((s) => !existsSync(join(ROOT, 'assets', 'screens', `${s}.jpg`)));
+// Gorseller dil basina: assets/screens/<dil>/<ekran>.jpg
+const missingScreens = locales.flatMap((l) => cfg.screens.filter((s) => !existsSync(join(ROOT, 'assets', 'screens', l.code, `${s}.jpg`))).map((s) => `${l.code}/${s}`));
 if (missingScreens.length) {
     console.log(`Eksik ekran gorseli (duzen bozulmaz, sonra eklenebilir): ${missingScreens.join(', ')}`);
 }

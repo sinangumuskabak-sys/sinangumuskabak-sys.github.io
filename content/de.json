@@ -192,7 +192,7 @@
   },
   "privacy": {
     "title": "Datenschutzerklärung",
-    "meta": "Gültig ab: 20. September 2026 · App: {{app}}",
+    "meta": "Gültig ab: 7. Oktober 2026 · App: {{app}}",
     "translationNotice": "Diese Übersetzung dient nur zur Information. Im Zweifelsfall ist die <a href=\"/privacy.html\">englische Fassung</a> maßgeblich.",
     "blocks": [
       {
@@ -226,6 +226,7 @@
           "Lese- und Hörfortschritt (welches Buch/Video und wie weit du gekommen bist)",
           "Leseeinstellungen (Schriftgröße, Design)",
           "Tägliches Lernziel, Lernminuten pro Tag und Serie",
+          "Feedback, das Sie in der App freiwillig senden (Sternebewertung und optionale Nachricht)",
           "Lernerinnerung — wenn Sie sie einschalten, wird eine tägliche Erinnerung lokal auf Ihrem Gerät geplant; es wird kein Push-Benachrichtigungsdienst genutzt und dafür verlassen keine Daten Ihr Gerät"
         ]
       },
@@ -235,7 +236,8 @@
       {
         "ul": [
           "Werbe-ID — die App zeigt optionale belohnte Videoanzeigen. Google AdMob greift auf die Werbe-ID Ihres Geräts zu, um diese auszuliefern, zu messen und Betrug zu verhindern. Das Ansehen einer Anzeige ist nie erforderlich, um eine Funktion zu nutzen, und Premium entfernt Anzeigen vollständig.",
-          "Anzeigen-Abschlussereignisse — ob eine Anzeige bis zum Ende angesehen wurde. Wird ausschließlich verwendet, um Ihnen das zusätzlich verdiente Übersetzungskontingent gutzuschreiben; es wird niemals mit Ihren gespeicherten Wörtern, Ihrem Lesefortschritt oder Ihren Statistiken verknüpft."
+          "Anzeigen-Abschlussereignisse — ob eine Anzeige bis zum Ende angesehen wurde. Wird ausschließlich verwendet, um Ihnen das zusätzlich verdiente Übersetzungskontingent gutzuschreiben; es wird niemals mit Ihren gespeicherten Wörtern, Ihrem Lesefortschritt oder Ihren Statistiken verknüpft.",
+          "IP-Adresse und Diagnose — wird eine Anzeige angefordert, erhält Google AdMob auch die IP-Adresse Ihres Geräts (aus der sich ein ungefährer Standort auf Stadtebene ableiten lässt) sowie grundlegende Daten zu Anzeigeninteraktionen und zur Diagnose."
         ]
       },
       {
@@ -244,7 +246,7 @@
       {
         "ul": [
           "Keine Mikrofon- oder Audioaufnahmen",
-          "Keine Standortdaten",
+          "Kein genauer Standort — die App fragt nie nach der Standortberechtigung (zum ungefähren Standort, den Google aus Ihrer IP-Adresse ableiten kann, siehe „Werbedaten“)",
           "Keine Kontakte, Fotos oder Dateien, abgesehen von Bildern, die du ausdrücklich zu gespeicherten Wörtern hinzufügst",
           "Keine Zahlungskartendaten — Abo-Zahlungen werden vollständig von Google Play abgewickelt; wir sehen und speichern niemals Kartendaten"
         ]
@@ -265,9 +267,13 @@
           "<strong>RevenueCat</strong> — Verwaltung des Abo-Status oberhalb der Google-Play-Abrechnung.",
           "<strong>Übersetzungsdienst (MyMemory)</strong> — wenn du ein Wort oder einen Satz zur Übersetzung antippst, wird zuerst auf deinem Gerät übersetzt. Ist das Übersetzungsmodell für dieses Sprachpaar noch nicht fertig heruntergeladen, wird der ausgewählte Text vorübergehend an MyMemory gesendet, einen von Translated S.r.l. betriebenen Übersetzungsdienst. Es wird nur der ausgewählte Text gesendet; er wird nicht mit deinem Namen, deiner E-Mail oder deinem Konto verknüpft. Sobald das Modell geladen ist, findet die Übersetzung vollständig auf deinem Gerät statt und dieser Weg wird nicht mehr genutzt.",
           "<strong>YouTube (Google)</strong> — das Hörmodul spielt Videos über den eingebetteten YouTube-Player ab. YouTube erhebt während der Wiedergabe Daten gemäß der eigenen Datenschutzerklärung von Google.",
-          "<strong>Google AdMob</strong> — liefert die optionalen belohnten Videoanzeigen aus und greift zur Auslieferung, Frequenzbegrenzung und Betrugsprävention auf die Werbe-ID Ihres Geräts zu, gemäß Googles eigener Datenschutzerklärung. Im EWR und im Vereinigten Königreich wird vor jeder Anzeige ein Einwilligungsformular angezeigt.",
+          "<strong>Google AdMob</strong> — liefert die optionalen belohnten Videoanzeigen aus und greift zur Auslieferung, Frequenzbegrenzung und Betrugsprävention auf die Werbe-ID Ihres Geräts zu, gemäß Googles eigener Datenschutzerklärung. Im EWR, im Vereinigten Königreich und in der Schweiz wird vor jeder Anzeige ein Einwilligungsformular angezeigt.",
           "<strong>Cloudflare</strong> — Offline-Übersetzungsmodelle werden über einen Cloudflare Worker aus Cloudflare R2 heruntergeladen. Cloudflare sieht während des Downloads die IP-Adresse deines Geräts; Kontodaten werden nicht übertragen.",
-          "<strong>Pixabay</strong> — wenn du nach einem Bild für ein gespeichertes Wort suchst, läuft die Suche auf unserem Server, die angezeigten Bilder werden jedoch direkt von Pixabay geladen; Pixabay sieht daher die IP-Adresse deines Geräts."
+          "<strong>Pixabay</strong> — wenn du nach einem Bild für ein gespeichertes Wort suchst, läuft die Suche auf unserem Server, die angezeigten Bilder werden jedoch direkt von Pixabay geladen; Pixabay sieht daher die IP-Adresse deines Geräts.",
+          "<strong>Resend</strong> — versendet Konto-E-Mails (Registrierungsbestätigung, Passwort zurücksetzen, E-Mail-Änderung). Der Dienst erhält Ihre E-Mail-Adresse nur zu diesem Zweck.",
+          "<strong>DiceBear</strong> — der von Ihnen gestaltete Avatar wird vom Bilddienst DiceBear gezeichnet. Er erhält die gewählten Avatar-Optionen (Haare, Farben usw.) und sieht die IP-Adresse Ihres Geräts; Ihren Namen oder Ihre E-Mail-Adresse erhält er nicht.",
+          "<strong>UI Avatars</strong> — wenn Sie keinen Avatar gewählt haben, erzeugt ui-avatars.com ein Platzhalterbild mit Ihren Initialen; der Dienst erhält Ihren Anzeigenamen und sieht die IP-Adresse Ihres Geräts.",
+          "<strong>Lorem Picsum</strong> — Bücher ohne eigenes Cover zeigen ein Platzhalterbild von picsum.photos; der Dienst sieht die IP-Adresse Ihres Geräts, Kontodaten werden nicht gesendet."
         ]
       },
       {

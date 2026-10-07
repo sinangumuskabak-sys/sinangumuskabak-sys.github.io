@@ -192,7 +192,7 @@
   },
   "privacy": {
     "title": "Gizlilik Politikası",
-    "meta": "Yürürlük tarihi: 20 Eylül 2026 · Uygulama: {{app}}",
+    "meta": "Yürürlük tarihi: 7 Ekim 2026 · Uygulama: {{app}}",
     "blocks": [
       {
         "h2": "1. Biz kimiz"
@@ -225,6 +225,7 @@
           "Okuma ve dinleme ilerlemesi (hangi kitap/videoda ne kadar ilerlediğiniz)",
           "Okuma tercihleri (yazı boyutu, tema)",
           "Günlük çalışma hedefi, günlük çalışma dakikaları ve seri",
+          "Uygulama içinden göndermeyi seçtiğiniz geri bildirim (yıldız puanı ve isteğe bağlı mesaj)",
           "Çalışma hatırlatması — açarsanız günlük hatırlatma cihazınızda yerel olarak planlanır; push bildirim hizmeti kullanılmaz ve bunun için cihazınızdan hiçbir veri çıkmaz"
         ]
       },
@@ -234,7 +235,8 @@
       {
         "ul": [
           "Reklam kimliği — uygulama isteğe bağlı ödüllü video reklamlar gösterir. Google AdMob bu reklamları sunmak, ölçmek ve sahtekârlığı önlemek için cihazınızın reklam kimliğine erişir. Reklam izlemek hiçbir özelliği kullanmak için zorunlu değildir; Premium reklamları tamamen kaldırır.",
-          "Reklam tamamlama bilgisi — bir reklamın sonuna kadar izlenip izlenmediği. Yalnızca kazandığınız ek çeviri hakkını hesabınıza geçirmek için kullanılır; kaydettiğiniz kelimeler, okuma ilerlemeniz veya istatistiklerinizle asla ilişkilendirilmez."
+          "Reklam tamamlama bilgisi — bir reklamın sonuna kadar izlenip izlenmediği. Yalnızca kazandığınız ek çeviri hakkını hesabınıza geçirmek için kullanılır; kaydettiğiniz kelimeler, okuma ilerlemeniz veya istatistiklerinizle asla ilişkilendirilmez.",
+          "IP adresi ve tanılama — reklam istendiğinde Google AdMob, cihazınızın IP adresini (buradan şehir düzeyinde genel bir konum tahmin edilebilir) ve temel reklam etkileşimi ile tanılama verilerini de alır."
         ]
       },
       {
@@ -243,7 +245,7 @@
       {
         "ul": [
           "Mikrofon/ses kaydı YOK",
-          "Konum verisi YOK",
+          "Hassas konum verisi YOK — uygulama konum izni istemez (Google'ın IP adresinizden tahmin edebildiği genel konum için “Reklam verileri” bölümüne bakın)",
           "Kelimelere bilerek eklediğiniz görseller dışında rehber, fotoğraf veya dosya erişimi YOK",
           "Kart bilgisi YOK — abonelik ödemeleri tamamen Google Play tarafından işlenir; kart bilgilerinizi hiçbir zaman görmeyiz ve saklamayız"
         ]
@@ -264,9 +266,13 @@
           "<strong>RevenueCat</strong> — Google Play faturalandırması üzerinde abonelik durumu yönetimi.",
           "<strong>Çeviri hizmeti (MyMemory)</strong> — bir kelimeye veya cümleye çeviri için dokunduğunuzda çeviri önce cihazınızda yapılır. O dil çifti için çeviri modeli henüz inmediyse, seçtiğiniz metin geçici olarak Translated S.r.l. tarafından işletilen MyMemory çeviri hizmetine gönderilir. Yalnızca seçilen metin gönderilir; adınız, e-postanız veya hesabınızla ilişkilendirilmez. Model indikten sonra çeviriler tamamen cihazınızda yapılır ve bu yol kullanılmaz.",
           "<strong>YouTube (Google)</strong> — dinleme modülü videoları gömülü YouTube oynatıcıyla oynatır. YouTube, oynatma sırasında kendi gizlilik politikası kapsamında veri toplar.",
-          "<strong>Google AdMob</strong> — isteğe bağlı ödüllü video reklamları gösterir; reklam sunumu, gösterim sınırlaması ve sahtekârlık önleme için cihazınızın reklam kimliğine erişir. Google'ın kendi gizlilik politikası geçerlidir. AEA ve Birleşik Krallık'ta reklam gösterilmeden önce bir onay formu sunulur.",
+          "<strong>Google AdMob</strong> — isteğe bağlı ödüllü video reklamları gösterir; reklam sunumu, gösterim sınırlaması ve sahtekârlık önleme için cihazınızın reklam kimliğine erişir. Google'ın kendi gizlilik politikası geçerlidir. AEA, Birleşik Krallık ve İsviçre'de reklam gösterilmeden önce bir onay formu sunulur.",
           "<strong>Cloudflare</strong> — çevrimdışı çeviri modelleri, bir Cloudflare Worker üzerinden Cloudflare R2’den indirilir. İndirme sırasında Cloudflare cihazınızın IP adresini görür; hesap verisi gönderilmez.",
-          "<strong>Pixabay</strong> — kaydettiğiniz bir kelimeye resim eklemek için arama yaptığınızda arama sunucumuzda çalışır, ancak gösterilen görseller doğrudan Pixabay’den yüklenir; bu yüzden Pixabay cihazınızın IP adresini görür."
+          "<strong>Pixabay</strong> — kaydettiğiniz bir kelimeye resim eklemek için arama yaptığınızda arama sunucumuzda çalışır, ancak gösterilen görseller doğrudan Pixabay’den yüklenir; bu yüzden Pixabay cihazınızın IP adresini görür.",
+          "<strong>Resend</strong> — hesap e-postalarını (kayıt onayı, şifre sıfırlama, e-posta değişikliği) iletir. Yalnızca bu amaçla e-posta adresinizi alır.",
+          "<strong>DiceBear</strong> — oluşturduğunuz avatar DiceBear görsel servisi tarafından çizilir. Seçtiğiniz avatar seçeneklerini (saç, renkler vb.) alır ve cihazınızın IP adresini görür; adınızı ya da e-posta adresinizi almaz.",
+          "<strong>UI Avatars</strong> — avatar seçmediyseniz baş harflerinizi içeren yer tutucu görsel ui-avatars.com tarafından üretilir; bu servis görünen adınızı alır ve cihazınızın IP adresini görür.",
+          "<strong>Lorem Picsum</strong> — kendi kapağı olmayan kitaplar picsum.photos adresinden yüklenen yer tutucu bir görsel gösterir; bu servis cihazınızın IP adresini görür, hesap verisi gönderilmez."
         ]
       },
       {

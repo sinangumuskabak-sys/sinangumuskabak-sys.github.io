@@ -273,6 +273,7 @@ for (const loc of locales) {
         ['terms', 'terms'],
         ['delete-account', 'deleteAccount'],
         ['support', 'support'],
+        ['about', 'about'],
     ]) {
         emit(
             `${base}${page}.html`,

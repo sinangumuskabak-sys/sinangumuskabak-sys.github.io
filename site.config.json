@@ -2,7 +2,7 @@
   "appName": "LearnGuage",
   "packageName": "com.sinandede.learnguage",
   "baseUrl": "https://learnguage.app",
-  "contactEmail": "learngua@learnguage.app",
+  "contactEmail": "sinan@learnguage.app",
   "playUrl": "https://play.google.com/store/apps/details?id=com.sinandede.learnguage",
   "playSubscriptionsUrl": "https://play.google.com/store/account/subscriptions",
   "defaultLocale": "en",
@@ -14,6 +14,6 @@
     { "code": "fr", "dir": "fr", "name": "Français", "htmlLang": "fr" },
     { "code": "de", "dir": "de", "name": "Deutsch", "htmlLang": "de" }
   ],
-  "pages": ["index", "privacy", "terms", "delete-account", "support"],
+  "pages": ["index", "privacy", "terms", "delete-account", "support", "about"],
   "screens": ["home", "reading", "listening", "vocabulary", "grammar"]
 }

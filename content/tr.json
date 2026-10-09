@@ -5,7 +5,8 @@
     "privacyDescription": "LearnGuage verilerinizi nasıl topluyor, kullanıyor ve koruyor.",
     "termsDescription": "LearnGuage uygulamasının kullanım koşulları; abonelik ve iptal şartları dahil.",
     "deleteAccountDescription": "LearnGuage hesabınızı ve tüm verilerinizi nasıl silersiniz.",
-    "supportDescription": "LearnGuage yardım: iletişim, sık sorulan sorular ve sorun giderme."
+    "supportDescription": "LearnGuage yardım: iletişim, sık sorulan sorular ve sorun giderme.",
+    "aboutDescription": "LearnGuage hakkında: kim geliştiriyor, ne zaman başladı ve nasıl iletişime geçilir."
   },
   "nav": {
     "label": "Site",
@@ -15,6 +16,7 @@
     "terms": "Koşullar",
     "delete-account": "Hesap silme",
     "support": "Destek",
+    "about": "Hakkında",
     "language": "Dil"
   },
   "footer": {
@@ -481,6 +483,52 @@
       },
       {
         "p": "Bir kitap, video veya çeviri hatalıysa ya da uygunsuzsa, başlığıyla ve mümkünse ekran görüntüsüyle bize yaz. Bu şekilde bildirilen içerik incelenir, düzeltilir veya kaldırılır."
+      }
+    ]
+  },
+  "about": {
+    "title": "Hakkında",
+    "meta": "Son güncelleme: 9 Ekim 2026 · Uygulama: {{app}}",
+    "blocks": [
+      {
+        "h2": "{{app}} nedir"
+      },
+      {
+        "p": "{{app}}, gerçek içerikle dil öğrenmek için geliştirilmiş bir Android uygulamasıdır. Seviyene uygun kitapları okur, videoları izler, anlamadığın kelimeye dokunup çevirisini görür ve kaydedersin. Kaydettiğin kelimeler aralıklı tekrar sistemine girer; kelime paketleri ve gramer konuları da uygulamanın içindedir."
+      },
+      {
+        "p": "İngilizce, İspanyolca, Almanca ve Fransızca öğrenebilirsin. Uygulama arayüzü Türkçe, İngilizce, İspanyolca, Portekizce, Fransızca ve Almanca olarak kullanılabilir."
+      },
+      {
+        "h2": "Kim geliştiriyor"
+      },
+      {
+        "p": "{{app}}, bağımsız geliştirici <strong>Sinan Gümüşkabak</strong> tarafından kuruldu; geliştirmesini ve işletmesini de o yürütüyor. Proje öz kaynakla yürüyor, dış yatırımcısı yok."
+      },
+      {
+        "p": "Uygulama Google Play'de <strong>educationary studios</strong> geliştirici adıyla yayımlanıyor (paket adı <code>{{package}}</code>)."
+      },
+      {
+        "h2": "Zaman çizelgesi"
+      },
+      {
+        "ul": [
+          "<strong>Ocak 2026</strong> — proje kuruldu ve geliştirme başladı.",
+          "<strong>Temmuz 2026</strong> — bu site ve ilk gizlilik politikası yayımlandı.",
+          "<strong>Eylül 2026</strong> — Google Play'de kapalı test başladı.",
+          "<strong>Ekim 2026</strong> — Google Play'de herkese açık yayın hazırlanıyor."
+        ]
+      },
+      {
+        "h2": "İletişim ve bağlantılar"
+      },
+      {
+        "ul": [
+          "E-posta: {{emailLink}}",
+          "GitHub: <a href=\"https://github.com/sinangumuskabak-sys\">github.com/sinangumuskabak-sys</a>",
+          "LinkedIn: <a href=\"https://www.linkedin.com/in/sinan-gumuskabak-b841622b4/\">linkedin.com/in/sinan-gumuskabak-b841622b4</a>",
+          "Yardım ve sorun giderme: <a href=\"{{url:support}}\">destek sayfası</a>"
+        ]
       }
     ]
   },

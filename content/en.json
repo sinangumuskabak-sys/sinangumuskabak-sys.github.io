@@ -5,7 +5,8 @@
     "privacyDescription": "How LearnGuage collects, uses and protects your data.",
     "termsDescription": "Terms of Use for the LearnGuage app, including subscription and cancellation terms.",
     "deleteAccountDescription": "How to delete your LearnGuage account and all associated data.",
-    "supportDescription": "Get help with LearnGuage: contact, frequently asked questions and troubleshooting."
+    "supportDescription": "Get help with LearnGuage: contact, frequently asked questions and troubleshooting.",
+    "aboutDescription": "About LearnGuage: who builds it, when it started and how to get in touch."
   },
   "nav": {
     "label": "Site",
@@ -15,6 +16,7 @@
     "terms": "Terms",
     "delete-account": "Delete account",
     "support": "Support",
+    "about": "About",
     "language": "Language"
   },
   "footer": {
@@ -481,6 +483,52 @@
       },
       {
         "p": "If a book, video or translation is wrong or inappropriate, email us with the title and, if possible, a screenshot. Content reported this way is reviewed and corrected or removed."
+      }
+    ]
+  },
+  "about": {
+    "title": "About",
+    "meta": "Last updated: October 9, 2026 · App: {{app}}",
+    "blocks": [
+      {
+        "h2": "What {{app}} is"
+      },
+      {
+        "p": "{{app}} is an Android app for learning a language with real content. You read graded books and watch videos, tap any word you don't know to see its translation, and save it. Saved words go into a spaced-repetition system, alongside vocabulary packs and grammar topics."
+      },
+      {
+        "p": "You can learn English, Spanish, German and French. The app interface is available in English, Turkish, Spanish, Portuguese, French and German."
+      },
+      {
+        "h2": "Who builds it"
+      },
+      {
+        "p": "{{app}} is founded, built and run by <strong>Sinan Gümüşkabak</strong>, an independent developer. It is a self-funded project with no outside investors."
+      },
+      {
+        "p": "On Google Play the app is published under the developer name <strong>educationary studios</strong> (package name <code>{{package}}</code>)."
+      },
+      {
+        "h2": "Timeline"
+      },
+      {
+        "ul": [
+          "<strong>January 2026</strong> — the project was founded and development began.",
+          "<strong>July 2026</strong> — this website and the first privacy policy were published.",
+          "<strong>September 2026</strong> — closed testing started on Google Play.",
+          "<strong>October 2026</strong> — preparing the public release on Google Play."
+        ]
+      },
+      {
+        "h2": "Contact and links"
+      },
+      {
+        "ul": [
+          "Email: {{emailLink}}",
+          "GitHub: <a href=\"https://github.com/sinangumuskabak-sys\">github.com/sinangumuskabak-sys</a>",
+          "LinkedIn: <a href=\"https://www.linkedin.com/in/sinan-gumuskabak-b841622b4/\">linkedin.com/in/sinan-gumuskabak-b841622b4</a>",
+          "Help and troubleshooting: <a href=\"{{url:support}}\">support page</a>"
+        ]
       }
     ]
   },

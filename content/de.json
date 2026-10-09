@@ -5,7 +5,8 @@
     "privacyDescription": "Wie LearnGuage deine Daten erhebt, verwendet und schützt.",
     "termsDescription": "Nutzungsbedingungen der LearnGuage-App, einschließlich Abo- und Kündigungsbedingungen.",
     "deleteAccountDescription": "So löschst du dein LearnGuage-Konto und alle zugehörigen Daten.",
-    "supportDescription": "Hilfe zu LearnGuage: Kontakt, häufige Fragen und Fehlerbehebung."
+    "supportDescription": "Hilfe zu LearnGuage: Kontakt, häufige Fragen und Fehlerbehebung.",
+    "aboutDescription": "Über LearnGuage: wer die App entwickelt, wann das Projekt begann und wie Sie Kontakt aufnehmen."
   },
   "nav": {
     "label": "Website",
@@ -15,6 +16,7 @@
     "terms": "Bedingungen",
     "delete-account": "Konto löschen",
     "support": "Support",
+    "about": "Über uns",
     "language": "Sprache"
   },
   "footer": {
@@ -484,6 +486,52 @@
       },
       {
         "p": "Wenn ein Buch, Video oder eine Übersetzung falsch oder unangemessen ist, schreibe uns mit dem Titel und wenn möglich einem Screenshot. So gemeldete Inhalte werden geprüft und korrigiert oder entfernt."
+      }
+    ]
+  },
+  "about": {
+    "title": "Über uns",
+    "meta": "Zuletzt aktualisiert: 9. Oktober 2026 · App: {{app}}",
+    "blocks": [
+      {
+        "h2": "Was {{app}} ist"
+      },
+      {
+        "p": "{{app}} ist eine Android-App, mit der man eine Sprache anhand echter Inhalte lernt. Sie lesen Bücher auf Ihrem Niveau und sehen Videos, tippen auf ein unbekanntes Wort, um die Übersetzung zu sehen, und speichern es. Gespeicherte Wörter kommen in ein System mit verteilter Wiederholung; dazu gibt es Vokabelpakete und Grammatikthemen."
+      },
+      {
+        "p": "Sie können Englisch, Spanisch, Deutsch und Französisch lernen. Die Oberfläche der App gibt es auf Englisch, Türkisch, Spanisch, Portugiesisch, Französisch und Deutsch."
+      },
+      {
+        "h2": "Wer die App entwickelt"
+      },
+      {
+        "p": "{{app}} wurde von <strong>Sinan Gümüşkabak</strong> gegründet, einem unabhängigen Entwickler, der die App auch entwickelt und betreibt. Das Projekt ist eigenfinanziert und hat keine externen Investoren."
+      },
+      {
+        "p": "Bei Google Play erscheint die App unter dem Entwicklernamen <strong>educationary studios</strong> (Paketname <code>{{package}}</code>)."
+      },
+      {
+        "h2": "Zeitleiste"
+      },
+      {
+        "ul": [
+          "<strong>Januar 2026</strong> — das Projekt wird gegründet, die Entwicklung beginnt.",
+          "<strong>Juli 2026</strong> — diese Website und die erste Datenschutzerklärung werden veröffentlicht.",
+          "<strong>September 2026</strong> — der geschlossene Test bei Google Play beginnt.",
+          "<strong>Oktober 2026</strong> — die öffentliche Veröffentlichung bei Google Play wird vorbereitet."
+        ]
+      },
+      {
+        "h2": "Kontakt und Links"
+      },
+      {
+        "ul": [
+          "E-Mail: {{emailLink}}",
+          "GitHub: <a href=\"https://github.com/sinangumuskabak-sys\">github.com/sinangumuskabak-sys</a>",
+          "LinkedIn: <a href=\"https://www.linkedin.com/in/sinan-gumuskabak-b841622b4/\">linkedin.com/in/sinan-gumuskabak-b841622b4</a>",
+          "Hilfe und Fehlerbehebung: <a href=\"{{url:support}}\">Support-Seite</a>"
+        ]
       }
     ]
   },
